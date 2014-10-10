@@ -5,7 +5,7 @@ description: > # Hello, my friend, my name is sarhov, I'm web developer.
             Now I do my own projects, but if want you always touch with be my email for skype.
             Have a nice day.
 avatar: http://sarhov.com/avatar.png
-baseurl: "http://sarhov.com" # the subpath of your site, e.g. /blog/
+baseurl: "http://sarhov.com/" # the subpath of your site, e.g. /blog/
 url: "http://sarhov.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  sarhov
