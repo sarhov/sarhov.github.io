@@ -3,10 +3,10 @@ title: sarhov || FrontEnd And Web Developer
 email: sarhov@sarhov.com
 phone: +374 94 77 33 02
 skype: sarhov  
-description:  sarhov is a profesional FrontEnd and Web developer.
+description:  sarhov is a profesional frontend and web developer.
 second_description:  Now I am doing my own project, but you always can touch with me, if you want, I am always open for new projects.
 avatar: http://sarhov.com/img/avatar.svg
-baseurl: "http://sarhov.com" # the subpath of your site, e.g. /blog/
+baseurl: "http://sarhov.com/" # the subpath of your site, e.g. /blog/
 url: "http://sarhov.com" # the base hostname & protocol for your site
 socials:
 - title: facebook
