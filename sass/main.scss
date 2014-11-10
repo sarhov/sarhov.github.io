@@ -1,0 +1,102 @@
+@import 'compass';  
+
+// Our variables 
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$red: #ff0000;
+
+@mixin loop($prefix, $num, $step){
+    @for $i from 1 through $num {
+        &#{$prefix}#{$i} {
+            background-color: darken($red, $i * $step);
+        }
+    }
+}
+
+
+
+@mixin flexgrow($prefix, $num, $grow){
+    @for $i from 1 through $num {
+        &#{$prefix}#{$i} {
+            flex-grow: $i * $grow;
+        }
+    }
+}
+
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        // "layout"
+         "syntax-highlighting"
+;
+
+
+
+.container{ 
+  background:rgba(105, 36, 165, 1.0);
+  // width: 1200px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  &__item{
+    flex-basis: 600px;
+    flex-grow: 1;
+    height: 100vh;
+    // width: 100px;
+    // height: 100px;
+    @include loop(_, 4, 6);
+    @include flexgrow(_, 4, 1);
+    @include media(1200px){
+      flex-basis: 200px;
+    }
+  }
+
+}
+
+/* site styles */
+
+body{
+  font-size: 16px;
+}
+
+.site-logo{
+  width: 100px;
+  &__link{
+    display: block;
+    max-width: 16em;
+    max-height: 100%;
+  }
+}
