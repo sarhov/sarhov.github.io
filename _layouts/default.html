@@ -29,8 +29,6 @@
   {% for nav in site.data.navigation %}
     <a href="{{nav.url}}" class="site-nav__link {% if nav.url == page.permalink %} is-active {% endif %}"> {{nav.title}}</a>
   {% endfor %}
-      
-   
   </nav>
   <!-- /.site-nav -->
 
@@ -42,6 +40,19 @@
 </header>
 <!-- main-header -->
 
+<section class="main main_works">
+  {{content}} 
+</section>
+<!-- /.main main_works -->
+
+<section class="second second_blogs">
+  {% if template == 'index' %}
+      {% include blogs-items-index.html %}
+      {% else %}
+      {% include sidebar.html %}
+  {% endif %}
+</section>
+<!-- /.second second_blogs -->
 
 
 

@@ -1,23 +1,24 @@
 ---
 layout: default
+template: index
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+{% for work in site.my_projects %}
+  <article class="project">
+    <h1 class="project__title">
+      <a href="{{work.url}}" class="project__link">{{work.title}}</a>
+    </h1>
+    <!-- /.project__title -->
+    <h2 class="project__description">
+      
+    </h2>
+    <!-- /.project__description -->
+    <div class="project-tools">
+    {% for tool in work.tools %}
+      <span class="project-tools__item">{{tool.title}}</span>  
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    </div>
+    <!-- /.project-tools -->
+  </article>
+  <!-- /.project -->  
+{% endfor %}
