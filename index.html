@@ -3,22 +3,4 @@ layout: default
 template: index
 ---
 
-{% for work in site.my_projects %}
-  <article class="project">
-    <h1 class="project__title">
-      <a href="{{work.url}}" class="project__link">{{work.title}}</a>
-    </h1>
-    <!-- /.project__title -->
-    <h2 class="project__description">
-      
-    </h2>
-    <!-- /.project__description -->
-    <div class="project-tools">
-    {% for tool in work.tools %}
-      <span class="project-tools__item">{{tool.title}}</span>  
-    {% endfor %}
-    </div>
-    <!-- /.project-tools -->
-  </article>
-  <!-- /.project -->  
-{% endfor %}
+
