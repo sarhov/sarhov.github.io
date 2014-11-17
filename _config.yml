@@ -4,22 +4,24 @@ email: sarhov@sarhov.com
 phone: +374 94 77 33 02
 skype: sarhov  
 description:  profesional frontend and web developer.
-second_description:  In now I am doing my own projects,  but  if you want, then you can touch with me, I am always open for new projects.
+second_description:  For now I am doing my own projects,  but  if you always can touch with me, I am always open for new projects.
 avatar: http://sarhov.com/img/avatar.svg
 baseurl: "http://sarhov.com/" # the subpath of your site, e.g. /blog/
 url: "http://sarhov.com" # the base hostname & protocol for your site
 socials:
 - title: facebook
   url: http://fb.com/sarhov
+  icon: sarhov-facebook
 - title: github
   url: http://github.com/sarhov
+  icon: sarhov-github
 
 # Build settings
 markdown: kramdown
-collections:
-  works:
-    output: true
-    permalink: /works/:path/
-  my_projects:
-    output: true
-    permalink: /my_projects/:path/
+# collections:
+#   works:
+#     output: true
+#     permalink: /works/:path/
+#   my_projects:
+#     output: true
+#     permalink: /my_projects/:path/

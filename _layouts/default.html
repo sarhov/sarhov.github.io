@@ -5,6 +5,8 @@
 
 <body>
 
+  {% include svg.html %}
+  
   <header class="main-header">
     <figure class="site-logo">
      <a href="{{site.baseurl}}" class="site-logo__link">
@@ -31,14 +33,30 @@
 
  <nav class="site-nav">
   {% for nav in site.data.navigation %}
-  <a href="{{nav.url}}" class="site-nav__link {% if nav.url == page.permalink %} is-active {% endif %}"> {{nav.title}}</a>
+
+  <a href="{{nav.url}}" class="site-nav__link {% if nav.url == page.permalink %} is-active {% endif %}"> 
+    {% if nav.icon %}
+    <svg class="site-nav__icon"><use xlink:href="#{{nav.icon}}"></use></svg>
+    {% endif %}
+    <span class="site-nav__link-text">
+      {{nav.title}}
+    </span>
+
+  </a>
   {% endfor %}
 </nav>
 <!-- /.site-nav -->
 
 <section class="site-social">
   {% for soc in site.socials %}
-  {{soc.title}}
+  <a href="{{soc.link}}" class="site-social__link">
+    {% if soc.icon %}
+    <svg class="site-social__icon"><use xlink:href="#{{soc.icon}}"></use></svg>
+    {% endif %}
+    <span class="site-social__link-text">
+      {{soc.title}}
+    </span>
+  </a>
   {% endfor %}
 </section>
 </header>

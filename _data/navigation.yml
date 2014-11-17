@@ -1,4 +1,6 @@
 - title: about
   url: /about_sarhov/
+  icon: sarhov-about
 - title: contact
   url: /contact/
+  icon: sarhov-contact

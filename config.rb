@@ -8,7 +8,7 @@ images_dir = "img"
 javascripts_dir = "js" 
 relative_assets = true
 line_comments = false
-# output_style = :compressed
+output_style = :compressed
 # sourcemap = true
 # You can select your preferred output style here (can be overridden via the command line):
 # To enable relative paths to assets via compass helper functions. Uncomment:

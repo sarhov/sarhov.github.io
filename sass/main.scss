@@ -31,6 +31,7 @@ $red: #ff0000;
 
 
 
+
 @mixin flexgrow($prefix, $num, $grow){
     @for $i from 1 through $num {
         &#{$prefix}#{$i} {
@@ -60,6 +61,11 @@ $red: #ff0000;
         @content;
     }
 }
+@mixin min-media($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -68,7 +74,25 @@ $red: #ff0000;
         // "layout"
          "syntax-highlighting"
 ;
+/* unvisited link */
+a:link {
+    color: green;
+}
 
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+} 
 img{
   max-height: 100%;
   max-width: 100%;
@@ -113,7 +137,7 @@ body{
   // width: 20%;
   background:#FFF5F5;
   flex-grow: 1;
-  width: 10%;
+  width: 8%;
   color: #444;
 }
 
@@ -219,10 +243,62 @@ padding: 10px;
   }
 }
 
-.second{
-  flex-grow: 4;
-  background:#C2F8F7;
-  width: 50%;
-  // width: 50%;
+.site-nav{
+  text-align: center;
+  @include pie-clearfix;
+  background:#444;
+  margin: 10px 0;
+  &__icon{
+    display: inline-block;
+    width: 40px;
+    color: #444;
+    vertical-align: middle;
+    max-height: 45px;
+  }
+  &__link{ 
+  padding: 10px;
+       color: #555;
+      font-size: 24px;
+      float: left;
+      width: 50%;
+      @include transition();
+      &-text{
+        display: block;
+        margin-top: 5px;
+      @include min-media(1330px){
+        display: inline-block;
+        margin-left: 10px;
+      }
+      }
+    &:hover{
+      text-decoration: none;
+      background:lighten(#444, 90%);
+      color: #444;
+    }
+  }
 }
 
+.site-social{
+  // position: absolute;
+  bottom:0;
+  left: 0;
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+  display:flex;
+  &__icon{
+    width: 40px;
+    max-height: 45px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__link{
+    color: #444;
+    align-self: flex-end;
+    float: left;
+    width: 50%;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
