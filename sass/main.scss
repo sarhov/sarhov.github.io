@@ -1,304 +1,87 @@
-@import 'compass';  
-
-// Our variables 
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #ccc;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-$red: #ff0000;
-
-@mixin loop($prefix, $num, $step){
-    @for $i from 1 through $num {
-        &#{$prefix}#{$i} {
-            background-color: darken($red, $i * $step);
-        }
-    }
-}
-
-
-
-
-@mixin flexgrow($prefix, $num, $grow){
-    @for $i from 1 through $num {
-        &#{$prefix}#{$i} {
-            flex-grow: $i * $grow;
-        }
-    }
-}
+@import "compass";
+@import "base";
+@import "syntax-highlighting";
 
 *, *:before, *:after {
-    @include box-sizing(border-box);
+  @include box-sizing(border-box);
 }
 
 .clearfix {
-    @include pie-clearfix;
-    background: none;
+  @include pie-clearfix;
+  background: none;
+}
+a{
+  text-decoration: none;
 }
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-@mixin min-media($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
-}
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        // "layout"
-         "syntax-highlighting"
-;
-/* unvisited link */
-a:link {
-    color: green;
-}
-
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-}
-
-/* selected link */
-a:active {
-    color: yellow;
-} 
-img{
+img {
   max-height: 100%;
   max-width: 100%;
   height: auto;
 }
 
-.container{ 
-  background:rgba(105, 36, 165, 1.0);
-  // width: 1200px;
-  height: 400px;
+body {
+    font-size: 16px;
+    // flex-direction: row;
+    min-height: 100vh;
+    // available fonw-weights:  200, 300, 400, 600,
+    background:#1e1e1e;
+    color: #ddd;
+    font-family: sans-serif;
+  }
+
+/* b-account */
+
+.b-account{
+  padding-top: 10%;
+  width: 30%;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  &__item{
-    flex-basis: 600px;
-    flex-grow: 1;
-    height: 100vh;
-    // width: 100px;
-    // height: 100px;
-    @include loop(_, 4, 6);
-    @include flexgrow(_, 4, 1);
-    @include media(1200px){
-      flex-basis: 200px;
-    }
-  }
-
-}
-
-/* site styles */
-
-body{
-  font-size: 16px;
-  display: flex;
-  // flex-direction: row;
-  min-height: 100vh;
-  font-family: 'Antic', sans-serif;
-}
-
-
-
-.main-header{
-  // width: 20%;
-  background:#FFF5F5;
-  flex-grow: 1;
-  width: 8%;
-  color: #444;
-}
-
-.site-logo{
-  width: 100%;
-  // margin-bottom: 0.9em;
-  padding: 0.8em;
-  &__link{
-    path{
-      @include transition(0.9s);
-    }
-    &:hover{
-      svg path{
-      fill: #A362BA;
-      }
-    }
-
-  }
-}
-
-.main{
-  flex-grow: 2;
-  background: #ddd;
-  // flex-basis: 200px;
-  width: 40%;
-}
-
-.site-info{
-  &__main{
-    padding: 10px;
-    font-size: 14px;
-    line-height: 1.3;
-    padding-top: 40px;
-    position: relative;
-  }
-  &__author{
-    font-size: 18px;
-    color: #000;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px;
-    background:#C6F0F4;
-  }
-  &__second{
-    border-top: 1px solid #f8dbdb;
-color: #000000;
-font-size: 14px;
-font-style: italic;
-line-height: 1.2;
-padding: 10px;
-  }
-}
-
-.work{
-  height: 33.33vh;
-  // padding: 10px;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap;
-  background:#F8F8F8;
-  // box-shadow: inset 0 0 100px #444;
-  &__img-link{
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: right  center;
-    // img{
-    // position: absolute;
-    // right: 0;
-    // top:0;
-    // height: 100%;
-    // @include transform(scale(2));
-    // @include transition(all 0.7s);
-    // @at-root .work:hover &{
-    //   @include transform(scale(1.5));
-    // }
-    // }
-
-  }
-  &__title{
-    position: relative;
-    z-index: 2;
-  }
-  &__description{
-   position: relative;
-   z-index: 2;
-   background:rgba(234, 234, 234, 0.8);
-   text-align: center;
-   padding: 2px;
-  }
-  @media screen and (max-height: 800px){
-    height: 50vh;
-  }
-}
-
-.site-nav{
   text-align: center;
-  @include pie-clearfix;
-  background:#444;
-  margin: 10px 0;
-  &__icon{
-    display: inline-block;
-    width: 40px;
-    color: #444;
-    vertical-align: middle;
-    max-height: 45px;
+  &__link{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
   }
-  &__link{ 
-  padding: 10px;
-       color: #555;
-      font-size: 24px;
-      float: left;
-      width: 50%;
-      @include transition();
-      &-text{
-        display: block;
-        margin-top: 5px;
-      @include min-media(1330px){
-        display: inline-block;
-        margin-left: 10px;
-      }
-      }
-    &:hover{
-      text-decoration: none;
-      background:lighten(#444, 90%);
-      color: #444;
-    }
+
+  &__text{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #342929;
+    margin-bottom: 15px;
+  }
+
+  &__title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  &__description{
+    font-size: 16px;
+    margin: 0;
   }
 }
 
-.site-social{
-  // position: absolute;
-  bottom:0;
-  left: 0;
-  overflow: hidden;
-  height: 200px;
-  width: 100%;
-  display:flex;
-  &__icon{
-    width: 40px;
-    max-height: 45px;
-    display: inline-block;
-    vertical-align: middle;
-  }
+/* END b-account */
+
+/* b-contact */
+.b-contact{
   &__link{
-    color: #444;
-    align-self: flex-end;
-    float: left;
-    width: 50%;
+    color: #F3FFD9;
+    border-bottom: 1px dotted transparent;
+    font-size: 12px;
     &:hover{
-      text-decoration: none;
+      border-bottom-color: #ddd;
+      color: #ddd;
     }
   }
+  &__text{
+    font-size: 12px;
+    font-style: italic;
+    margin: 0 5px;
+  }
 }
+/* END b-contact */
