@@ -64,7 +64,7 @@ body {
     background:#000;
     img {
       filter: contrast(2);
-      -webkit-filter: contrast(2)
+      -webkit-filter: contrast(2);
       height: auto;
       max-height: 100%;
       max-width: 100%;
@@ -74,7 +74,7 @@ body {
     &:hover{
       img{
         filter: contrast(4);
-        -webkit-filter: contrast(4)
+        -webkit-filter: contrast(4);
       }
     }
   }
