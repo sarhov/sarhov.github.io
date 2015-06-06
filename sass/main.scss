@@ -62,20 +62,18 @@ body {
     margin-bottom: 15px;
     display: inline-block;
     background:#000;
+    filter: contrast(2);
+    -webkit-filter: contrast(2);
+    transition: all 0.3s ease 0s;
     img {
-      filter: contrast(2);
-      -webkit-filter: contrast(2);
       height: auto;
       max-height: 100%;
       max-width: 100%;
       // transform: rotate(3deg) scale(1.25) translate(-2px, 4px);
-      transition: all 0.3s ease 0s;
     }
     &:hover{
-      img{
-        filter: contrast(4);
-        -webkit-filter: contrast(4);
-      }
+      filter: contrast(4);
+      -webkit-filter: contrast(4);
     }
   }
 
