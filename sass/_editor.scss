@@ -1,0 +1,39 @@
+.editor{
+  line-height: 1.3;
+  color: #444;
+  p{
+    margin-bottom: 5px;
+  }
+
+  blockquote {
+    font-size: 14px;
+    background: #f9f9f9;
+    border-left: 10px solid #1E1E1E;
+    margin: 1.5em 0 1.5em 0;
+    padding: 1em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #1E1E1E;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.15em;
+    vertical-align: -0.4em;
+  }
+  blockquote cite {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    a{
+    color: #6fda44;
+    &:hover{
+      color: darken(#6fda44, 10%);
+    }
+    }
+    &:before{
+      color: #6fda44;
+      content: '-';
+    }
+  }
+}

@@ -1,0 +1,50 @@
+---
+title: "Shopify - Featured Image For Blog Posts"
+permalink: /shopify-featured-image-for-blog-posts
+featured_image: "https://lh3.googleusercontent.com/-4n2lqN_wtro/VXSk6xawxNI/AAAAAAAAGcQ/KouAljIsa4M/s0/write-a-great-blog-post.jpg"
+layout: post
+published: false
+---
+
+
+<p>As you know, in standard  functionality there is no way to have featured image in blog post preview or posts lists.</p>
+
+<p>Sometimes there is need to show last blog posts in site footer or sidebar, but because Shopify doesn't have such functionality, we show only title and maybe the part of blog post's content.</p>
+
+<p>In this small article I will show how we can achieve it using the power of template language used in Shopify themes. As you know in Shopify templates (themes) are used the Liquid template language, it's pretty simple and in the same time very powerful and flexible template lang, and using it right way we can add more functionality to our themes.</p>
+
+<p>What we need is grab the first image for blog post and show it as preview, the downcase of this method that I can't control the size of the image, as Shopify doesn't generates various sizes for these images</p>
+
+<blockquote>
+Shopify generates several sizes for product images, collection images and product variant images, you see the filter for size in official documentation, it helps to not load heavy images, when there is no need for theme, but load the optimal version, which suits the current design.
+<cite>
+  <a target="_blank" href="https://docs.shopify.com/themes/liquid-documentation/filters/url-filters#size-parameters">Shopify: Image Sizes</a>
+</cite>
+</blockquote>
+
+<p>And so, let's create a simple widget, where we will show the latest blog posts, the blog posts box will have title, featured image and part of description, which we will truncate using string filters.</p>
+
+<p>First of all let's do the part of html.</p>
+
+{% highlight liquid  %}
+{% raw %}
+  {% for tag in collection.all_tags %}
+    <div class="b-tag">
+      {{tag}}
+    </div>
+  {% endfor %}
+{% endraw %}
+{% endhighlight %} 
+
+{% highlight css %}
+  
+  .b-content{
+    width: 50%;
+    margin-left: 200px;
+    padding-left: 15px;
+  }
+
+{% endhighlight %}
+ 
+
+

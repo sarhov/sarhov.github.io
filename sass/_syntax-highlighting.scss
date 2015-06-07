@@ -1,8 +1,16 @@
 /**
  * Syntax highlighting styles
  */
-.highlight {
-    background: #fff;
+ @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
+ .highlight {
+    position: relative;
+    background: #1E1E1E none repeat scroll 0 0;
+    // border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px; 
+    color: #6FDA44;
+    font-size: 12px;
+    font-family: 'Source Code Pro', ;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
@@ -63,4 +71,17 @@
     .vg    { color: #008080 } // Name.Variable.Global
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+[class*="language"]::before {
+  background: #f5e7e7 none repeat scroll 0 0;
+  border-radius: 0 0 0 4px;
+  color: #444444;
+  content: attr(data-lang);
+  display: block;
+  margin-bottom: 10px;
+  padding: 2px 6px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

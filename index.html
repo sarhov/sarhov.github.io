@@ -2,3 +2,15 @@
 layout: default
 template: index
 ---
+
+<div class="b-articles">
+  {% for article in site.posts %}
+  <div class="b-articles__item">
+  <a href="{{article.url}}">  {{article.title}}
+    <img src="{{article.featured_image | replace: "s0", "s600"}}" alt=""> 
+  </a>
+  </div>
+  <!-- /.b-articles__item -->
+  {% endfor %}
+</div>
+<!-- /.b-articles --> 

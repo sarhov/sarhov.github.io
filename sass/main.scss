@@ -1,6 +1,7 @@
 @import "compass";
 @import "base";
 @import "syntax-highlighting";
+@import "editor";
 
 *, *:before, *:after {
   @include box-sizing(border-box);
@@ -26,7 +27,7 @@ body {
     min-height: 100vh;
     // available fonw-weights:  200, 300, 400, 600,
     color: #ddd;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
 /* b-wrap */
@@ -97,7 +98,7 @@ body {
     display: block;
     font-size: 12px;
     font-weight: normal;
-    padding: 5px 0 0;
+    padding: 6px 0 3px;
   }
 
   &__description{
@@ -132,6 +133,7 @@ body {
     padding: 2px;
   }
   &__link{
+    font-weight: 300;
     color: #F3FFD9;
     border-bottom: 1px dotted #ddd;
     font-size: 12px;
@@ -192,5 +194,11 @@ body {
     top: 18px;
     width: 172px;
   }
-}
+} 
 /* END b-hire */
+
+.b-content{
+  width: 50%;
+  margin-left: 200px;
+  padding-left: 15px;
+}
