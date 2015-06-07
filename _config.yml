@@ -9,7 +9,7 @@ socials:
 - title: github
   url: http://github.com/sarhov
   icon: sarhov-github
-highlighter: true
+highlighter: pygments
 permalink: /:title/
 # Build settings
 markdown: kramdown
