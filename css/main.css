@@ -567,15 +567,14 @@ body {
   font-size: 25px;
   font-variant: small-caps;
   font-weight: 600;
-  margin-bottom: 10px;
   padding: 15px 20px;
 }
 
 /* b-articles */
 .b-articles {
   *zoom: 1;
-  margin: 0 -15px;
-  padding: 0 15px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .b-articles:after {
   content: "";
@@ -584,9 +583,7 @@ body {
 }
 .b-articles__item {
   float: left;
-  padding: 0 15px;
   width: 50%;
-  margin-bottom: 30px;
 }
 
 /* END b-articles */
