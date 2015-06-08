@@ -51,9 +51,12 @@
 <!-- /.b-wrap b-wrap_header -->
 {% if site.posts.size > 0 %}
 <div class="b-content">
+
   {% if page.template == 'index' %}
   <div class="b-content__title">Last Articles</div>
   <!-- /.b-content__title -->
+  {% else %}
+  <h1 class="b-page-title">{{page.title}}</h1>
   {% endif %}
   {{content}}
 </div>
