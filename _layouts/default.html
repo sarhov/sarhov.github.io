@@ -14,10 +14,10 @@
         <div class="b-account__text">
          <h1 class="b-account__title">
           {{site.data.info.real_name}}
-          <small class="b-account__name">
-            {{site.data.info.title}}
-          </small>
         </h1>
+        <small class="b-account__name">
+          {{site.data.info.title}}
+        </small>
         <!-- /.b-account__title -->
         <h2 class="b-account__description">
           {{site.data.info.description}}
@@ -55,8 +55,6 @@
   {% if page.template == 'index' %}
   <div class="b-content__title">Last Articles</div>
   <!-- /.b-content__title -->
-  {% else %}
-  <h1 class="b-page-title">{{page.title}}</h1>
   {% endif %}
   {{content}}
 </div>

@@ -101,3 +101,36 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+
+*, *:before, *:after {
+   box-sizing: border-box;
+}
+
+.clearfix {
+  *zoom: 1;
+  background: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 16px;
+    // flex-direction: row;
+    min-height: 100vh;
+    // available fonw-weights:  200, 300, 400, 600,
+    color: #ddd;
+    font-family: 'Lato', sans-serif;
+  }
