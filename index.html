@@ -5,14 +5,12 @@ template: index
 
 <div class="b-articles">
 {% for i in (1..8) %}
-  
-
   {% for article in site.posts %}
   <div class="b-articles__item">
   <a href="{{article.url}}" class="b-article">
     <h2 class="b-article__title">{{article.title}}</h2>
     <!-- /.b-article__title -->
-    <img src="{{article.featured_image | replace: "s0", "s600"}}" alt="" class="b-article__img">
+    <img src="{{article.featured_image | replace: "s0", "s600"}}" alt="" class="b-article__img"> 
   </a>
   </div>
   <!-- /.b-articles__item -->
