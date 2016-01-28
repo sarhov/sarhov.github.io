@@ -14,6 +14,7 @@
         <div class="b-account__text">
          <h1 class="b-account__title">
           {{site.data.info.real_name}}
+          <small style="display: block;height: 0; visibility: hidden; width: 0;"> / Shopify Expert</small>
         </h1>
         <small class="b-account__name">
           {{site.data.info.title}}
@@ -50,7 +51,7 @@
 </div>
 <!-- /.b-wrap b-wrap_header -->
 {% if site.posts.size > 0 %}
-<div class="b-content">
+<div class="b-content {{page.layout}}">
 
   {% if page.template == 'index' %}
   <div class="b-content__title">Last Articles</div>

@@ -4,19 +4,38 @@ template: index
 ---
 
 <div class="b-articles">
-{% for i in (1..8) %}
-  
+ 
 
   {% for article in site.posts %}
   <div class="b-articles__item">
-  <a href="{{article.url}}" class="b-article">
-    <h2 class="b-article__title">{{article.title}}</h2>
-    <!-- /.b-article__title -->
-    <img src="{{article.featured_image | replace: "s0", "s600"}}" alt="" class="b-article__img">
-  </a>
+    <div class="b-article">
+      <h2 class="b-article__title">
+        <a href="{{article.url}}">  {{article.title}}</a>
+      </h2>
+      <!-- /.b-article__title -->
+      <a href="{{article.url}}">
+      <img src="{{article.featured_image | replace: "s0", "s800"}}" alt="" class="b-article__img">
+      </a>
+      <div class="b-article__excerpt">
+        {{article.short_description}}
+      </div>
+      <div class="b-article__actions">
+        <div class="b-article__author">
+          <img src="{{site.baseurl}}img/avatar.png" alt="">
+          <div class="b-article__author-line">
+            <span class="b-article__author-details b-article__author-details_name">Hovhannes Sargsyan</span>  
+            <span class="b-article__author-details b-article__author-details_job-title">Shopify Expert, Web Developer</span>  
+          </div>
+          <a href="{{article.url}}" class="b-article__more">
+            Continue reading...
+          </a>
+        </div>
+
+      </div>
+    </div>
   </div>
   <!-- /.b-articles__item -->
   {% endfor %}
-  {% endfor %}
+
 </div>
 <!-- /.b-articles --> 
