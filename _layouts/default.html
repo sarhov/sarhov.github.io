@@ -55,7 +55,7 @@
 
   <div class="b-content__inner clearfix">
     <div class="b-content__left"> 
-      {% if page.template == 'index' %}
+      {% if page.template == 'index' and site.posts.size > 0 %}
       <div class="b-content__title">Last Articles</div>
       <!-- /.b-content__title -->
       {% endif %}
