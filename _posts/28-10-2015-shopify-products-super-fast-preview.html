@@ -29,3 +29,24 @@ short_description: |
 	But what if the customer want just to zoom a bit the image to see the details on it, especially if the product is T-Shirt with print on it. </p>
 	Customer has to spend too much time every time checking the product.
 </p>
+
+
+{% highlight liquid  %}
+{% raw %}
+  {% for tag in collection.all_tags %}
+    <div class="b-tag">
+      {{tag}}
+    </div>
+  {% endfor %}
+{% endraw %}
+{% endhighlight %} 
+
+{% highlight css %}
+  
+  .b-content{
+    width: 50%;
+    margin-left: 200px;
+    padding-left: 15px;
+  }
+
+{% endhighlight %}

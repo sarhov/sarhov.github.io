@@ -12,9 +12,11 @@ template: index
         <a href="{{article.url}}">  {{article.title}}</a>
       </h2>
       <!-- /.b-article__title -->
+      {% if article.featured_image != '' %}
       <a href="{{article.url}}">
       <img src="{{article.featured_image | replace: "s0", "s800"}}" alt="" class="b-article__img">
       </a>
+      {% endif %}
       <div class="b-article__excerpt">
         {{article.short_description}}
       </div>

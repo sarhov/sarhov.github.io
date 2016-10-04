@@ -7,7 +7,7 @@
   <div class="b-wrap b-wrap_header">
     <div class="b-inner">
       <div class="b-account">
-        <a href="{{site.baseurl}}" class="b-account__link">
+        <a href="{{site.baseurl}}" class="b-account__link"> 
           <img src="{{site.baseurl}}img/avatar.png" alt="sarhov | shopify expert, web developer" class="b-account__img">
         </a>
         <!-- b-account__link -->
@@ -50,17 +50,29 @@
   <!-- b-inner -->
 </div>
 <!-- /.b-wrap b-wrap_header -->
-{% if site.posts.size > 0 %}
+
 <div class="b-content {{page.layout}}">
 
-  {% if page.template == 'index' %}
-  <div class="b-content__title">Last Articles</div>
-  <!-- /.b-content__title -->
-  {% endif %}
-  {{content}}
+  <div class="b-content__inner clearfix">
+    <div class="b-content__left"> 
+      {% if page.template == 'index' %}
+      <div class="b-content__title">Last Articles</div>
+      <!-- /.b-content__title -->
+      {% endif %}
+      <div class="b-content__content">
+        {{content}}
+      </div>
+    </div>
+
+    <div class="b-content__right">
+
+    </div>
+  </div>
+
+
 </div>
 <!-- /.b-content -->
-{% endif %}
+
 </body>
 
 </html>

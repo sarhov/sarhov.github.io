@@ -168,7 +168,7 @@
 /* END b-hire */
 
 .b-content{
-  width: 70%;
+  width: calc(100% - 200px);
   margin-left: 200px;
   padding-left: 15px;
   &::before {
@@ -216,17 +216,18 @@
   }
 }
 
-/* b-articles */
+.b-content__left{
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+
 .b-articles{
-  margin-left: -15px;
-  margin-right: -15px;
   &__item{
-    float: left;
-    padding: 0 15px;
-    width: 50%;
+    margin-bottom: 30px;
   }
 }
-/* END b-articles */
+
 
 /* b-article */
 .b-article{
@@ -238,12 +239,13 @@
     // background: rgba(109, 218, 68, 0.75) none repeat scroll 0 0;
     bottom: 15%;
     color: #444444;
-    font-size: 22px;
+    font-size: 25px;
+    letter-spacing: 1px;
     // padding: 10px;
     // position: absolute;
     margin-bottom: 15px;
     width: 100%;
-    font-family: 'Volkhov', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     a{
       color: #333;
       &:hover{
@@ -344,7 +346,7 @@
 /* b-page-title */
 .b-page-title {
   color: #333333;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 25px;
   padding-top: 24px;
 }
