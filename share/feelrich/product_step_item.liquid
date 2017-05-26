@@ -1,0 +1,46 @@
+<div class="product-template__container page-width" itemscope itemtype="http://schema.org/Product">
+  <meta itemprop="name" content="{{ product.title }}">
+  <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+  <meta itemprop="image" content="{{ product.featured_image.src | img_url: '800x' }}">
+  
+
+  <div class="product-single clearfix">
+    <div class="product-single__photos">
+      <img src="{{ product.featured_image | img_url: 'x600', crop: 'center' }}" class="product-featured-img">
+    </div>
+
+
+
+    <div class="product-single__meta">
+
+      <h2 class="header-gold h1">STEP {{ product.variants.first.barcode }}:</h2>
+      <h3 itemprop="name" class="product-single__title tk-proxima-nova h1">{{ product.title }}</h3>
+
+      <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+
+        <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+
+
+        <div class="product-single__description rte white" itemprop="description">
+          {{ product.description | split: '~section~' | first }}
+        </div>
+
+        <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-form product-form-{{ section.id }}{% unless section.settings.show_variant_labels %} product-form--hide-variant-labels{% endunless %}" data-section="{{ section.id }}" data-productid="{{product.id}}">
+          {% if product.available %}{% include 'subscription-product' %}{% endif %}
+
+          <span class="price">{{ product.price | money_without_trailing_zeros }}/month</span>
+
+
+            <button type="submit" class="btn-red" name="add" id="AddToCart-{{product.id}}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if product.options.size == 1 and product.variants[0].title == 'Default Title' %} product-form__cart-submit--small{% endif %}">
+              <span id="AddToCartText-{{ section.id }}">
+                ADD
+              </span>
+            </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+</div>

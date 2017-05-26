@@ -1,0 +1,72 @@
+{%- assign social_icons = false -%}
+
+{% if
+  settings.social_twitter_link != blank
+  or settings.social_facebook_link != blank
+  or settings.social_pinterest_link != blank
+  or settings.social_instagram_link != blank
+  or settings.social_tumblr_link != blank
+  or settings.social_snapchat_link != blank
+  or settings.social_youtube_link != blank
+  or settings.social_vimeo_link != blank
+  or template.name == 'article'
+  or template.name == 'blog'
+%}
+  {%- assign social_icons = true -%}
+{% endif %}
+
+<footer class="site-footer" role="contentinfo">
+  <div class="center" style="padding-bottom:0;">
+      <img src="{{ 'footer-logo.png' | asset_url }}" />
+      <div class="social-links">
+          <a href="https://twitter.com/feelrich" target="_blank"><img src="{{ 'icon-twitter.png' | asset_url }}" /></a>
+          <a href="https://www.facebook.com/FeelRichTV/" target="_blank"><img src="{{ 'icon-facebook.png' | asset_url }}" /></a>
+          <a href="https://www.instagram.com/feelrich/" target="_blank"><img src="{{ 'icon-instagram.png' | asset_url }}" /></a>
+          <a href="https://www.youtube.com/user/FeelrichTV" target="_blank"><img src="{{ 'icon-youtube.png' | asset_url }}" /></a>
+      </div>
+      
+      <hr style="margin:20px 0" />
+      <div>
+      <div style="margin:0 20px;" class="tk-proxima-nova pull-left site-copy">&copy; FR Products, LLC {{'now' 
+      | date: '%Y'}}</div>
+      
+      <div style="margin:0 20px;" class="tk-proxima-nova pull-right footer-menu">
+          {% for link in linklists.footer.links %}
+          <a href="{{link.url}}" {% if link.active %} class="active" {% endif %}>{{link.title}} </a> 
+          {% endfor %}
+      </div>
+      </div>
+  </div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "footer_linklist",
+        "label": "Primary menu",
+        "default": "footer"
+      },
+      {
+        "type": "link_list",
+        "id": "footer_linklist_two",
+        "label": "Additional menu",
+        "default": "main-menu"
+      },
+      {
+        "type": "checkbox",
+        "id": "footer_newsletter_enable",
+        "label": "Show newsletter signup",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show payment icons",
+        "default": false
+      }
+    ]
+  }
+{% endschema %}
