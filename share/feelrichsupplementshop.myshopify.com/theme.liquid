@@ -1,0 +1,265 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="{{ shop.locale }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {% if settings.favicon != blank %}
+  {% endif %}
+    <link rel="shortcut icon" href="{{ 'Feel-Rich.png' | asset_url  }}" type="image/png">
+
+  {% capture seo_title %}
+    {{ page_title }}
+    {% if current_tags %}
+      {%- assign meta_tags = current_tags | join: ', ' %} – {{ 'general.meta.tags' | t: tags: meta_tags -}}
+    {% endif %}
+    {% if current_page != 1 %}
+      – {{ 'general.meta.page' | t: page: current_page }}
+    {% endif %}
+    {% unless page_title contains shop.name %}
+      – {{ shop.name }}
+    {% endunless %}
+  {% endcapture %}
+  <title>{{ seo_title }}</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400" rel="stylesheet">
+  
+  <script src="https://use.typekit.net/ivz1zfo.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+
+  {% include 'social-meta-tags' %}
+
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {% include 'google-fonts' %}
+
+  <script>
+    var theme = {
+      strings: {
+        addToCart: {{ 'products.product.add_to_cart' | t | json }},
+        soldOut: {{ 'products.product.sold_out' | t | json }},
+        unavailable: {{ 'products.product.unavailable' | t | json }},
+        showMore: {{ 'general.filters.show_more' | t | json }},
+        showLess: {{ 'general.filters.show_less' | t | json }}
+      },
+      moneyFormat: {{ shop.money_format | json }}
+    }
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+
+  <!--[if (lte IE 9) ]>{{ 'match-media.min.js' | asset_url | script_tag }}<![endif]-->
+
+  {% if template.directory == 'customers' %}
+    <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script><!--<![endif]-->
+    <!--[if lte IE 9]><script src="{{ 'shopify_common.js' | shopify_asset_url }}"></script><![endif]-->
+  {% endif %}
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="{{ 'vendor.js' | asset_url }}"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'theme.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="{{ 'theme.js' | asset_url }}"></script><![endif]-->
+
+  {{ content_for_header }}
+    {{'sarhov.scss.css' | asset_url | stylesheet_tag }}
+</head>
+
+<body class="template-{{ template | split: '.' | first }}">
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  <div id="SearchDrawer" class="search-bar drawer drawer--top">
+    <div class="search-bar__table">
+      <div class="search-bar__table-cell search-bar__form-wrapper">
+        <form class="search search-bar__form" action="/search" method="get" role="search">
+          <button class="search-bar__submit search__submit btn--link" type="submit">
+            {% include 'icon-search' %}
+            <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
+          </button>
+          <input class="search__input search-bar__input" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" aria-label="{{ 'general.search.placeholder' | t }}">
+        </form>
+      </div>
+      <div class="search-bar__table-cell text-right">
+        <button type="button" class="btn--link search-bar__close js-drawer-close">
+          {% include 'icon-close' %}
+          <span class="icon__fallback-text">{{ 'general.search.close' | t }}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  {% section 'header' %}
+
+  <div class="page-container" id="PageContainer">
+
+    <main class="main-content" id="MainContent" role="main">
+      {{ content_for_layout }}
+    </main>
+
+    {% section 'footer' %}
+
+  </div>
+  
+  {% include 'ajaxify-cart' %}
+  
+  {% include 'subscription-theme-footer' %}<br>
+  
+    
+     {% if template contains 'steps' %}
+
+    {% include 'fixed_steps' %}
+
+    {% endif %}
+
+    {% if collection.handle == 'frontpage' %}
+      {% include 'fixed_steps_collection' %}
+    {% endif %}
+
+  
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      $('#testimonials').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        adaptiveHeight: true 
+      });
+
+    {% if template contains 'steps' %}
+      $('#product_steps').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: false,
+        adaptiveHeight: true,
+        prevArrow: $('.left-footlinks'),
+        nextArrow: $('#nextProduct'),
+        loop: false,
+        infinite: false,
+        autoplay:  false
+      });
+
+       $('#product_steps').on('afterChange', function (event, slick, currentSlide) {
+          console.log(currentSlide)
+          if(currentSlide === 4) {
+              $('#nextProduct').addClass('opacity');
+          }
+          else {
+              $('#nextProduct').removeClass('opcaity');
+          }
+
+          if(currentSlide === 0) {
+              $('.left-footlinks').addClass('opcaity');
+          }
+          else {
+              $('.left-footlinks').removeClass('opcaity');
+          }  
+      })
+
+      {% endif %}
+
+
+
+
+    });
+
+
+  </script>
+
+
+  {% if product.variants.first.barcode == '5' %} 
+
+  {% include 'upsell' %}
+
+  <script>
+    $('.jsShowUpsell').click(function(event) {
+      event.preventDefault();
+      $('#upsellOverlay').fadeIn();
+      $('#upsell').fadeIn();
+    });
+  </script>
+
+  {% endif %}
+
+  <script>
+    $('.jsRemove').click(function(event) {
+      var addToCartBtn = $(this).parent().prev('button')
+      event.preventDefault();
+      var theId = {{cart.item_count | plus: 1}}
+      console.log(theId);
+
+     //  jQuery.post('/cart/change.js', {
+     //   quantity: 0, 
+     //   line: 1 
+     // });
+
+
+      $.ajax({
+        url: '/cart/change.js',
+        dataType: 'json',
+        type: 'post',
+        data: {quantity: 0, line: 1 }, 
+        success: function() {
+          // Re-enable add to cart button.
+          addToCartBtn.addClass('inverted').find('i').remove();
+          addToCartBtn.find('span').html('ADD');
+          $('.jsRemove').hide();
+        }, 
+        error: function(XMLHttpRequest) {
+          var response = eval('(' + XMLHttpRequest.responseText + ')');
+          response = response.description;
+          if (response.slice(0,4) === 'All ') {
+            _showFeedback('error', response.replace('All 1 ', 'All '), $addToCartForm);
+            addToCartBtn.prop('disabled', false);
+            _setText(addToCartBtn, _config.soldOutBtnLabel);
+            addToCartBtn.prop('disabled',true);
+          }
+          else {
+            _showFeedback('error', '<i class="fa fa-warning"></i> ' + response, $addToCartForm);
+            addToCartBtn.prop('disabled', false).removeClass('disabled');
+            _setText(addToCartBtn, _config.addToCartBtnLabel);
+          }
+        }
+      }); 
+
+
+    });
+
+
+
+    $(document).ready(function() {
+      $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
+        if ($('#terms_and_conditions').is(':checked')) {
+          $(this).submit();
+        }
+        else {
+          alert("You must agree with the terms and conditions of sales to check out.");
+          $('.terms-checkbox').addClass('error')
+          return false;
+        }
+      });
+
+      $('#terms_and_conditions').change(function() {
+        if ($('#terms_and_conditions').is(':checked')) {
+          $('.terms-checkbox').removeClass('error')
+        }
+      });
+
+    });
+
+
+
+  </script>
+</body>
+</html>

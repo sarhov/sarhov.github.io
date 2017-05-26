@@ -1,0 +1,77 @@
+<div class="hero hero--{{ section.settings.hero_size }}{% if section.settings.title != blank or section.settings.text != blank or section.settings.button_label != blank %} hero__overlay{% endif %}"{% if section.settings.image %} style="background-image: url('{{ section.settings.image | img_url: '2048x' }}'); background-position: center {{ section.settings.alignment }};"{% endif %} style="background: white;">
+  {% if section.settings.image == blank %}
+    <div class="placeholder-background" style="background: url({{ 'hero2bg.png' | asset_url }}); background-repeat: no-repeat; background-position: center -220px; background-repeat: no-repeat;">
+      
+    </div>
+  {% endif %}
+  
+  <div class="desktop">
+  <div class="hero__inner" style="padding-top:140px;display:block;">
+    <div class="page-width text-center">
+      <div class="text-box large">
+          <span class="block">Premium supplements delivered to your</span>
+          <span class="block">door every month to give you that edge</span>
+          <img src="{{ 'products.png' | asset_url }}" />
+      </div>
+      <div class="text-box small">
+          <span class="btn-gold">OUR PRODUCTS</span>
+          <span class="block">BOOST YOUR RESULTS</span>
+          <span class="block">GET HEALTHY</span>
+          <span class="block">LOSE WEIGHT</span>
+          <span class="block">GAIN MUSCLE</span>
+          <span class="block">FEEL RICH</span>
+          <a href="/collections/frontpage/products/focus-and-energy" class="btn-red">START HERE</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero__footer">
+      <div class="text-box center">
+          <span class="block" style="color: black">With Feel Rich<sup>®</sup> Supplements, you can count on fully disclosed ingredients,</span>
+          <span class="block" style="color: black">no hidden "proprietary formulas", and the best ingredients possible.</span>
+      </div>
+      
+      <div class="title gold big">THE MOVEMENT</div>
+      <div class="partners gold large">
+      </div>
+  </div>
+  </div>
+  
+  <div class="mobile">
+  <div class="hero__inner" style="padding-top:140px;">
+    <div class="page-width text-center">
+      <div class="text-box large">
+          <span class="block">Premium supplements delivered to your</span>
+          <span class="block">door every month to give you that edge</span>
+          
+          <div class="our-products">
+              <span class="btn-gold">OUR PRODUCTS</span>
+              <span class="block">BOOST YOUR RESULTS</span>
+              <span class="block">GET HEALTHY</span>
+              <span class="block">LOSE WEIGHT</span>
+              <span class="block">GAIN MUSCLE</span>
+              <span class="block">FEEL RICH</span>
+              <a href="/collections/frontpage/products/focus-and-energy" class="btn-red">START HERE</a>
+          </div>
+          
+      </div>
+      <div class="text-box small">
+          <img src="{{ 'products.png' | asset_url }}" />
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero__footer">
+      <div class="text-box center">
+          <span class="block" style="color: black">With Feel Rich<sup>®</sup> Supplements, you can count on fully disclosed ingredients,</span>
+          <span class="block" style="color: black">no hidden "proprietary formulas", and the best ingredients possible.</span>
+      </div>
+      
+      <div class="title gold big">THE MOVEMENT</div>
+      <div class="partners gold large">
+      </div>
+  </div>
+  </div>
+  
+</div>
+

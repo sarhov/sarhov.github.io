@@ -1,0 +1,16 @@
+<div id="footerButtons" class="sticky-footer">
+{% if collection.previous_product %}
+	<a href="{{collection.previous_product}}" class="pull-left left-footlinks link-iconed"> 
+		<i class="fa fa-angle-left"></i>
+		 PREV<span class="hide-mobile">IOUS PAGE</span>
+	</a>
+	{% endif %}
+
+	
+
+	{% if collection.next_product %}	{% endif %}
+
+	<a href="{{collection.next_product}}" id="nextProduct" class="btn-red {% if product.variants.first.barcode == '5' %} jsShowUpsell {% endif %}">NEXT <span class="hide-mobile">STEP</span></a> 
+
+	<a href="/cart" class="pull-right footlinks  link-iconed"><span class="hide-mobile">GO TO </span>CHECKOUT <i class="fa fa-angle-right"></i> </a>
+</div>

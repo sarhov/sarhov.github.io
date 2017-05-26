@@ -1,0 +1,50 @@
+<div class="how-wrap steps">
+	<div class="how-header">
+		
+		<div id="product_steps">
+			{% for product in collection.products %}
+			<div class="product-step">
+				<div class="product-step__content">
+					{% include 'product_step_item' %}
+				</div>
+				<div class="product-step__description">
+					<div class="text-center return-link-wrapper sub-description">
+					  {{ product.description | split: '~section~' | last }}
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+
+		</div>
+
+	</div>
+</div>
+
+
+  <div class="row gold large">
+  </div>
+  
+  <div class="banner-bottom hero hero--{{ section.settings.hero_size }}{% if section.settings.title != blank or section.settings.text != blank or section.settings.button_label != blank %} hero__overlay{% endif %}"{% if section.settings.image %} style="background-image: url('{{ section.settings.image | img_url: '2048x' }}'); background-position: center {{ section.settings.alignment }};"{% endif %}>
+  
+    <div class="placeholder-background" style="background: url({{ 'product-footer.png' | asset_url }}); background-size: 100%; background-repeat: no-repeat;">
+    </div>
+    
+  <div class="hero__inner">
+    <div>
+       <div class="hero__footer">
+          <div class="partners">
+              <img src="{{ 'ah.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'ebony.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'jnj.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'thp.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'bet.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'sbl.png' | asset_url }}" class="partner-logo" />
+              <img src="{{ 'lf.png' | asset_url }}" class="partner-logo" />
+          </div>
+      </div>
+  </div>
+  
+  <div class="hero__footer">
+      
+  </div>
+</div>

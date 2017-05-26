@@ -1,0 +1,43 @@
+<div class="hero info-section "{% if section.settings.image %} style="background-image: url('{{ section.settings.image | img_url: '2048x' }}'); background-position: center {{ section.settings.alignment }};"{% endif %}>
+  {% if section.settings.image == blank %}
+    <div class="placeholder-background" style="background: url({{ 'dirtwhitepng.png' | asset_url }}); background-size: 100%; background-repeat: no-repeat; background-color: white;">
+      
+    </div>
+  {% endif %}
+  <div class="hero__inner" style="padding-top:140px;">
+    <div class="page-width text-center"> 
+      <div class="text-box center">
+          <span class="btn-gold">BENEFITS</span>
+          <br/>
+          <span style="color: black;" class="block">Get Healthy - Feel Rich</span>
+          <span style="color: black;" class="block">Join an amazing community of people like you.</span>
+          <span style="color: black;" class="block">Products delivered right to your door</span>
+          <span style="color: black;" class="block">Enjoy big savings and receive exclusive deals</span>
+          <span style="color: black;" class="block">Join us at private events and concerts</span>
+          
+          <br/>
+          <span class="btn-gold">MANAGE</span>
+         
+          <br/>
+          <span style="color: black;" class="block">Modify or end your subscription anytime</span>
+          <span style="color: black;" class="block">No hidden fees</span>
+          <span style="color: black;" class="block">Flat rate shipping</span>
+          <span style="color: black;" class="block">Satisfaction guaranteed</span>
+
+{% comment %}          <span style="color: black; font-weight: 200; font-style: italic;" class="block">"These supplements have made a huge difference. I am losing weight faster and feeling great. On top of all that, you just can't beat the price!"</span>{% endcomment %}
+          
+      </div>
+ 
+
+  </div>
+
+  {% include 'testimonials' %}
+  
+  <div class="before-after">
+      <img src="{{ 'ba1.png' | asset_url }}" />
+      <img src="{{ 'ba2.png' | asset_url }}" />
+      <img src="{{ 'ba3.png' | asset_url }}" />
+  </div>
+  
+</div>
+
