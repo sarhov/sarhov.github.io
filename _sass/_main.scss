@@ -82,6 +82,10 @@ body {
     margin-bottom: 0.2em;
     @media screen and (max-width: 440px){
       font-size: 3.4em;
+      margin-bottom: 0.8em;
+      &:before{
+          background: linear-gradient(to left, rgba(0, 0, 0, 0.77) 5%, rgba(0, 0, 0, 0.88) 10%, rgba(0, 0, 0, 0.30) 100%);
+      }
     }
     &:before{
         content: '';
