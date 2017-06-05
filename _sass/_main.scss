@@ -1,14 +1,53 @@
+/*  base variables and colors */
+
+$border_color: #4a525a;
+
+/* END base variables and colors */
+
+body {
+  font-size: 16px;
+  min-height: 100vh;
+  // available fonw-weights:  200, 300, 400, 600,
+  color: #ddd;
+  font-family: 'Lato', sans-serif;
+  &.inner-page{
+    background:white url('../img/white-texture.png') center center repeat;
+  }
+}
+
+.b-home{
+  min-height: 100vh;
+  width: 100%;
+  &__row{
+    height: 100vh;
+    width: 100%;
+    &_first{
+      position: relative;
+      z-index: 1;
+      background: #444 url('http://shopifynext.com/bg-new.jpg') center center/cover;
+      &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:transparent url('http://shopifynext.com/pattern.png') left top repeat;
+      }
+    }
+  }
+}
+
 
 /* b-wrap */
 .b-wrap{
   &_header{
-    background: #384048;
+    background: rgba(#444, 0.9);
     position: fixed;
     height: 100%;
     width: 200px;
     // padding-bottom: 175px;
     overflow: auto;
     min-height: 442px;
+    z-index: 2;
     @media screen and (max-height: 442px){
       min-height: 0;
     }

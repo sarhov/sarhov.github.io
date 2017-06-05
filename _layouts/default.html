@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.template != 'index' %} inner-page {% else %} index-page {% endif %}">
 
   <div class="b-wrap b-wrap_header">
     <div class="b-inner">
@@ -51,15 +51,14 @@
   <!-- b-inner -->
 </div>
 <!-- /.b-wrap b-wrap_header -->
-
+{% if page.template == 'index' %}
+<div class="b-home">
+  <div class="b-home__row b-home__row_first"></div>
+</div>
+{% else %}
 <div class="b-content {{page.layout}}">
-
   <div class="b-content__inner clearfix">
     <div class="b-content__left"> 
-      {% if page.template == 'index' and site.posts.size > 0 %}
-      <div class="b-content__title">Last Articles</div>
-      <!-- /.b-content__title -->
-      {% endif %}
       <div class="b-content__content">
         {{content}}
       </div>
@@ -69,10 +68,9 @@
 
     </div>
   </div>
-
-
 </div>
 <!-- /.b-content -->
+{% endif %}
 
 </body>
 
