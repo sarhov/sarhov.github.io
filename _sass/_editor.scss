@@ -8,6 +8,16 @@
   color: #444;
   word-break:break-all;
 
+  code {
+      display: inline-block;
+      background: #cfcfcf;
+      padding: 0 4px;
+      border-radius: 2px;
+      margin: 0 2px;
+      color: #443c3c;
+      font-family: 'Source Code Pro' ;
+  }
+
   p{
     margin-bottom: 15px;
     font-size: 18px;
