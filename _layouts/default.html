@@ -53,13 +53,26 @@
 <!-- /.b-wrap b-wrap_header -->
 {% if page.template == 'index' %}
 <div class="b-home">
+
   <div class="b-home__row b-home__row_first">
     <div class="b-home-intro">
       <h4 class="b-home-intro__title"><span>I do Shopify ...</span>  </h4>
       <h5 class="b-home-intro__subtitle"> <span>Shopify Development Services</span> </h5>
       <h6 class="b-home-intro__slogan"> <span>Experienced <span class="visual-hidden">Shopify Expert and</span> individual web developer focused on Shopify</span></h6>
     </div>
+
+    <div class="b-home__action">
+      <a class="b-scroll jsScrollBottom" href="#section2">
+        <span></span><span></span><span></span>
+        <strong>Book Me</strong>
+      </a>
+    </div>
   </div>
+
+  <div class="b-home__row b-home__row_second" id="section2">
+      
+  </div>
+
 </div>
 {% else %}
 <div class="b-content {{page.layout}}">
@@ -77,6 +90,9 @@
 </div>
 <!-- /.b-content -->
 {% endif %}
+
+<script src="{{'js/jquery.min.js' | prepend: site.baseurl }}"></script> 
+<script src="{{'js/functions.js' | prepend: site.baseurl}}"></script>
 
 </body>
 
