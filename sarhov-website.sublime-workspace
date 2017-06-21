@@ -320,7 +320,7 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 3139,
+				"buffer_size": 3197,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -396,10 +396,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "re",
+		"height": 139.0,
+		"last_filter": "liq",
 		"selected_items":
 		[
+			[
+				"liq",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"je",
+				"Jekyll: New draft"
+			],
 			[
 				"re",
 				"Indentation: Reindent Lines"
@@ -619,10 +627,6 @@
 			[
 				"php",
 				"Set Syntax: PHP"
-			],
-			[
-				"je",
-				"Set Syntax: HTML (Jekyll)"
 			],
 			[
 				"open",
@@ -907,13 +911,9 @@
 			[
 				"ermove",
 				"Package Control: Remove Package"
-			],
-			[
-				"com",
-				"Snippet: Comment - Block style comment"
 			]
 		],
-		"width": 382.0
+		"width": 390.0
 	},
 	"console":
 	{
@@ -936,6 +936,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js",
@@ -1279,28 +1280,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3139,
+						"buffer_size": 3197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2667,
-								2667
+								2610,
+								2610
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1054.0,
+						"translation.y": 748.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1452,7 +1453,7 @@
 						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -2045,9 +2046,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ebk",
+		"last_filter": "miqo",
 		"selected_items":
 		[
+			[
+				"miqo",
+				"C:\\Users\\sarhov\\Dropbox\\My_projects\\itsjekyll-miqo\\itsjekyll-miqo.sublime-project"
+			],
 			[
 				"ebk",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\ebikekit.myshopify.com\\ebikekit.sublime-project"
