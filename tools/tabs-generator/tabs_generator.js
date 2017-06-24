@@ -7,26 +7,26 @@ var actionRemoveTab = $('.jsActionRemoveTab');
 var actionTabItem = $('.jsActionTabItem');
 var actionTabList = $('.jsActionTabList');
 
-function checkLength(){
+function checkL(){
 	var checkLength = actionTabList.find('.jsActionTabItem').length;
 	console.log(checkLength) 
-	if (checkLength > 5) {
-		actionRemoveTab.hide();
+	if (checkLength > 4) {
+		actionAddTab.hide(); 
 	}
 	else{
-		actionRemoveTab.show();
+		actionAddTab.show();
 	}
 }
 
-function actionTabs(){
+function actionTabs(){ 
 	actionAddTab.click(function(event) {
 		event.preventDefault();
-		console.log(checkLength)
+		// console.log(checkLength_)
 		var newPosition = $(this).prev('li');
 		var tabIndex = parseInt(newPosition.attr('data-index')) + 1;
 		var clonedTab = newPosition.clone();
 		clonedTab.attr('data-index', tabIndex).insertAfter(newPosition).find('.jsTitleText').html('Title - ' + tabIndex)
-		checkLength();
+		checkL();
 	});
 }
 
