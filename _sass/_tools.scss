@@ -1,11 +1,18 @@
 .b-tools{
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	@media screen and (max-width: 680px){
+		flex-direction: column;
+	}
 	&__action{
-		width: 60%;
-		padding-right: 30px;
+		
 	}
 	&__result{
-		width: 40%;
-		padding-right: 30px;
+		
 	}
+}
+
+.show-placeholder + div{
+	display: none !important;
 }
