@@ -1,0 +1,11 @@
+.b-tools{
+	display: flex;
+	&__action{
+		width: 60%;
+		padding-right: 30px;
+	}
+	&__result{
+		width: 40%;
+		padding-right: 30px;
+	}
+}

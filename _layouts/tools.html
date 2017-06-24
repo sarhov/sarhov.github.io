@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+
+<div id="page" class="single-page">
+	<div class="b-post-info clearfix">
+		<div class="b-post-info__actions">
+			<a href="/tools"> Return To All Tools </a>
+		</div>
+		<!-- /.b-post-info__action -->
+		<div class="b-post-info__info">
+			{{ page.date | date: "%-d %B %Y" }}
+		</div>
+		<!-- /.b-post-info__info -->
+	</div>
+	<!-- /.b-post-info -->
+	<h1 class="b-page-title">{{page.title | replace: 'sarhov', '<a href="https://upwork.com/fl/sarhov">@sarhov</a>'}}</h1>
+
+	<div class="editor">
+		{{content}}
+	</div>
+
+</div>

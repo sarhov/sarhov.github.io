@@ -326,6 +326,42 @@
 			}
 		},
 		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 155,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/28-10-2015-shopify-products-super-fast-preview.md",
+			"settings":
+			{
+				"buffer_size": 1904,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/tools.html",
+			"settings":
+			{
+				"buffer_size": 1347,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "---"
+			}
+		},
+		{
+			"file": "pages/start-working.html",
+			"settings":
+			{
+				"buffer_size": 2867,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "_includes/head.html",
 			"settings":
 			{
@@ -936,11 +972,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/.sass-cache",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/pages",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical"
 	],
 	"file_history":
@@ -1243,7 +1276,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1271,7 +1304,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1301,11 +1334,127 @@
 						"translation.y": 748.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/28-10-2015-shopify-products-super-fast-preview.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tools/tools.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "pages/start-working.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
@@ -1331,11 +1480,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "_sass/_base.scss",
 					"semi_transient": false,
 					"settings":
@@ -1361,11 +1510,11 @@
 						"translation.y": 1192.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "css/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -1389,11 +1538,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "_sass/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1417,7 +1566,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1427,7 +1576,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "_sass/_main.scss",
 					"semi_transient": false,
 					"settings":
@@ -1453,11 +1602,11 @@
 						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": "_sass/_editor.scss",
 					"semi_transient": false,
 					"settings":
@@ -1483,11 +1632,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
@@ -1513,11 +1662,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "_sass/_syntax-highlighting.scss",
 					"semi_transient": false,
 					"settings":
@@ -1543,11 +1692,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "css/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -1571,7 +1720,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1605,7 +1754,7 @@
 		"cols":
 		[
 			0.0,
-			0.448586118252,
+			0.800128534704,
 			1.0
 		],
 		"rows":
@@ -2046,9 +2195,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "miqo",
+		"last_filter": "ro",
 		"selected_items":
 		[
+			[
+				"ro",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\rozey.myshopify.com\\rozy.sublime-project"
+			],
+			[
+				"miq",
+				"C:\\Users\\sarhov\\Dropbox\\My_projects\\itsjekyll-miqo\\itsjekyll-miqo.sublime-project"
+			],
 			[
 				"miqo",
 				"C:\\Users\\sarhov\\Dropbox\\My_projects\\itsjekyll-miqo\\itsjekyll-miqo.sublime-project"
