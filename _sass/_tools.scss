@@ -1,6 +1,9 @@
 .inner-page{
-	.tools{
+	&.tools{
 		background: #fff;
+		.b-wrap_header{
+			background: rgba(68,68,68, 1) url('../img/pattern.png') left top repeat;
+		}
 	}
 }
 
@@ -43,25 +46,42 @@
 		margin-right: 10px;
 		// cursor: pointer;
 		text-align: center;
-		height: 41px;
 		&:focus{
 			cursor: text;
 		}
 		&-text{
 			// cursor: text;
 			&:focus{
-				span{
-					cursor: text;
+				cursor: text;
+				&:focus{
+					+ .fa{
+						opacity: 1;
+					}
 				}
 			}
 		}
 		&_title{
 			border: 1px solid #ccc;
-			padding: 10px;
+			padding: 11px 15px;
 			border-bottom: none;
 			min-width: 100px;
 			position: relative;
 			background: #fff;
+			height: 41px;	
+			.fa{
+				font-size: 8px;
+				margin-right: 5px;
+				vertical-align: middle;
+				opacity: 0.3;
+				position: absolute;
+				top: 4px;
+				right: 0px;
+			}
+			&:hover, &:focus{
+				.fa{
+					opacity: 1;
+				}
+			}
 			&.is-active:before{
 				content: '';
 				width: 100%;
@@ -73,13 +93,19 @@
 				bottom:-1px;
 			}
 		}
-		&_title{
-			&:focus{
-				cursor: text;
-			}
-		}
 		&:last-child{
 			margin-right: 0;
+		}
+		&_plus{
+			position: relative;
+			top: 13px;
+			font-size: 12px;
+			margin-left: 6px;
+			cursor: pointer;
+			transition: all 0.2s;
+			&:hover{
+				opacity: 0.7;
+			}
 		}
 	}
 }
