@@ -1,3 +1,9 @@
+.inner-page{
+	.tools{
+		background: #fff;
+	}
+}
+
 .b-tools{
 	display: flex;
 	flex-direction: row;
@@ -37,7 +43,7 @@
 		margin-right: 10px;
 		// cursor: pointer;
 		text-align: center;
-		height: 43px;
+		height: 41px;
 		&:focus{
 			cursor: text;
 		}

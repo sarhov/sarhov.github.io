@@ -17,7 +17,7 @@ description: |
   <div class="b-tools__action">
   	<div class="b-tabs-action">
   		<ul class="b-tabs-action__list clearfix">
-  			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTab is-active" data-index="0" >
+  			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTab is-active" data-index="0">
 					<span class="b-tabs-action__item-text jsTitleText" contenteditable>First Tab</span>
   			</li>
   			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTab" data-index="0" >
@@ -28,12 +28,19 @@ description: |
 		  	</li>
   			</ul>
   	</div>
-	  <div id="editor">
-	    <p>Hello World!</p>
-	    <p>Some initial <strong>bold</strong> text</p>
-	    <p><br></p>
-	  </div>
+  	<div class="b-tabs-editor">
+  		<div class="b-tabs-editor__item jsEditorItem" data-index="0">
+  			<div id="editor">
+  			  <p>Hello World!</p>
+  			  <p>Some initial <strong>bold</strong> text</p>
+  			  <p><br></p>
+  			</div>
+  		</div>
+  	</div>
+
   </div>
+
+  
   <div class="b-tools__result">
     <div class="fr-view">
       Here comes the HTML edited with the Froala rich text editor.
