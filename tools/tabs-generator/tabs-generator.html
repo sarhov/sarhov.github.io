@@ -13,22 +13,34 @@ description: |
  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
 
+
+
 <div class="b-tools">
+
   <div class="b-tools__action">
   	<div class="b-tabs-action">
-  		<ul class="b-tabs-action__list clearfix">
-  			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTab is-active" data-index="0">
-					<span class="b-tabs-action__item-text jsTitleText" contenteditable>First Tab</span>
-  				<i class="fa fa-pencil"></i>
+
+			<div class="b-tools-header">
+				<div class="editor">
+					<p>
+						Add/remove tabs, edit the titles clicing on tabs
+					</p>
+				</div>
+			</div>
+
+  		<ul class="b-tabs-action__list jsActionTabList clearfix">
+  			{% for i in (1..4) %}
+  			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTabItem {% if forloop.index == 1 %}is-active {% endif %}" data-index="{{forloop.index}}">
+					<span class="b-tabs-action__item-text jsTitleText" contenteditable>Title - {{forloop.index}}</span>
+  				<button class="jsActionRemoveTab b-tabs-action__remove">
+  					<i class="fa fa-times"></i>
+  				</button>
   			</li>
-  			<li class="b-tabs-action__item b-tabs-action__item_title jsActionTab" data-index="1" >
-					<span class="b-tabs-action__item-text jsTitleText" contenteditable>Second Tab</span>
-  				<i class="fa fa-pencil"></i>
-  			</li>
-		  	<li class="b-tabs-action__item_plus b-tabs-action__item jsAddTab">
+  			{% endfor %}
+		  	<li class="b-tabs-action__item_plus b-tabs-action__item jsActionAddTab">
 		  		<i class="fa fa-plus"></i>
 		  	</li>
-  			</ul>
+  		</ul>
   	</div>
   	<div class="b-tabs-editor">
   		<div class="b-tabs-editor__item jsEditorItem" data-index="0">
