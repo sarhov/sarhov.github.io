@@ -1,6 +1,3 @@
-$(function() { 
-	$('textarea').froalaEditor({
-		heightMin: 300,
-		iframe: true
-	}) 
-});
+  var quill = new Quill('#editor', {
+    theme: 'snow'
+  });

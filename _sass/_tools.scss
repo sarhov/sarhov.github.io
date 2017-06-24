@@ -1,15 +1,18 @@
 .b-tools{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	@media screen and (max-width: 680px){
 		flex-direction: column;
 	}
 	&__action{
-		
+		padding-right: 30px; 
+		width: 50%;
 	}
 	&__result{
-		
+		width: 50%;
+		padding-right: 30px; 
 	}
 }
 

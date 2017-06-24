@@ -12,12 +12,8 @@
   <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}">
   {% if page.layout == 'tools' %}
     <link rel="stylesheet" href="{{ "css/tools.css" | prepend: site.baseurl }}">
-
     {% if page.template == 'tools-tabs' %}
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
-      <!-- Include Editor style. -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.quilljs.com/1.2.6/quill.snow.css" rel="stylesheet">
     {% endif %}
   {% endif %}
 
