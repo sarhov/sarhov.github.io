@@ -69,6 +69,9 @@
 		width: 15px;
 		height: 15px;
 		margin: 0;
+		&.is-hidden {
+			display: none;
+		}
 		&:hover{
 			opacity: 1;
 		}
@@ -121,7 +124,7 @@
 		}
 		&_plus{
 			position: relative;
-			top: 13px;
+			top: 15px;
 			font-size: 12px;
 			margin-left: 6px;
 			cursor: pointer;
@@ -140,5 +143,10 @@
 }
 
 .b-tabs-editor{
-	
+	&__item{
+		display: none;
+		&.is-active{
+			display: block;
+		}
+	}
 }
