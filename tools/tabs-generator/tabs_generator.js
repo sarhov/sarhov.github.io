@@ -29,7 +29,7 @@ function addEditor(index){
 	console.log(oldIndex)
 	var template = ' <div class="b-tabs-editor__item jsEditorItem" data-index="'+ index +'">'
 		+ '<div id="editor_'+ index +'">'
-    +'<h2>Content for tab <span class="jsEditorTitle"> '+ index +'</span> </h2>'
+    +'<h2>Content for tab goes here</h2>'
     +'<p>Hello World!</p>'
     + '<p>Some initial <strong>bold</strong> text</p>'
     + '<p><br></p>'
@@ -44,11 +44,23 @@ function addEditor(index){
   	});
 }
 
+
+function removeEditor(index){
+	var needEditor = $('.jsEditorItem[data-index="'+index+'"]');
+	var restEditors = needEditor.nextAll('.jsEditorItem');
+	needEditor.remove();
+	restEditors.each(function(index, el) {
+		var newEl = $(el);
+		var tabIndex = parseInt(newEl.attr('data-index')) - 1;
+		// console.log(tabIndex)
+		newEl.attr('data-index', tabIndex);
+	});
+}
+
 actionAddTab.click(function(event) {
 	event.preventDefault();
 	// console.log(checkLength_)
 	var newPosition = $(this).prev('.jsActionTabItem');
-
 	var tabIndex = parseInt(newPosition.attr('data-index')) + 1;
 	addEditor(tabIndex)
 	var clonedTab = newPosition.clone(true, true);
@@ -71,20 +83,33 @@ actionTabItem.click(function() {
 });
 
 actionRemoveTab.click(function(event) {
-	event.preventDefault();
-	var newPosition = $(this).closest('li');
-	var restItems = newPosition.nextAll('.jsActionTabItem');
-	// console.log(restItems)
-	newPosition.remove();
-	restItems.each(function(index, el) {
-		var newEl = $(el);
-		var tabIndex = parseInt(newEl.attr('data-index')) - 1;
-		// console.log(tabIndex)
-		newEl.attr('data-index', tabIndex);
-		var checkTitle = newEl.find('.jsTitleText').text()
-		if (checkTitle.indexOf("Title - ") >= 0){
-				newEl.find('.jsTitleText').html('Title - ' + tabIndex)
-		}
-	});
-	checkL();
+	if (confirm('Are you sure you want to remove this tab ?')) {
+	    event.preventDefault();
+	    var newPosition = $(this).closest('.jsActionTabItem');
+
+	    var restItems = newPosition.nextAll('.jsActionTabItem');
+	    var currentIndex = parseInt(newPosition.attr('data-index'));	
+	    var minusIndex = currentIndex -1
+	    if (newPosition.hasClass('is-active')) {
+	    	newPosition.prev().addClass('is-active')
+	    	$('.jsEditorItem[data-index="'+minusIndex+'"]').addClass('is-active').siblings().removeClass('is-active')
+	    }
+	    removeEditor(currentIndex);
+	    // console.log(restItems)
+	    newPosition.remove();
+	    restItems.each(function(index, el) {
+	    	var newEl = $(el);
+	    	var tabIndex = parseInt(newEl.attr('data-index')) - 1;
+	    	// console.log(tabIndex)
+	    	newEl.attr('data-index', tabIndex);
+	    	var checkTitle = newEl.find('.jsTitleText').text()
+	    	if (checkTitle.indexOf("Title - ") >= 0){
+	    			newEl.find('.jsTitleText').html('Title - ' + tabIndex)
+	    	}
+	    });
+	    checkL();
+	} else {
+	    // Do nothing!
+	}
+
 });

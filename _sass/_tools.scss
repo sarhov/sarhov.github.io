@@ -1,8 +1,12 @@
 .inner-page{
-	&.tools{
+	&.tools-page{
 		background: #fff;
 		.b-wrap_header{
 			background: rgba(68,68,68, 1) url('../img/pattern.png') left top repeat;
+		}
+		.b-content{
+			position: relative;
+			z-index: 2;
 		}
 	}
 }
@@ -147,6 +151,19 @@
 		display: none;
 		&.is-active{
 			display: block;
+		}
+		&::before {
+	    content: 'Content for tab - ' attr(data-index);
+	    background: #f3f3f3;
+	    width: auto;
+	    padding: 8px;
+	    display: inline-block;
+	    font-size: 12px;
+	    font-weight: bold;
+	    border-radius: 0px 0px 0 0;
+	    width: auto;
+	    display: block;
+	    box-shadow: 0px -2px 0px #d7d27a;
 		}
 	}
 }

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"newEditor"
+			],
+			[
 				"clon",
 				"clonedTab"
 			],
@@ -14,10 +18,6 @@
 			[
 				"cln",
 				"clonedTab"
-			],
-			[
-				"new",
-				"newPosition"
 			],
 			[
 				"ch",
@@ -331,7 +331,7 @@
 			"file": "tools/tabs-generator/tabs_generator.js",
 			"settings":
 			{
-				"buffer_size": 1585,
+				"buffer_size": 2654,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -340,7 +340,7 @@
 			"file": "tools/tabs-generator/tabs-generator.html",
 			"settings":
 			{
-				"buffer_size": 2129,
+				"buffer_size": 2220,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1260,7 +1260,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1269,15 +1269,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1585,
+						"buffer_size": 2654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								726,
+								726
 							]
 						],
 						"settings":
@@ -1286,10 +1286,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1298,25 +1298,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2129,
+						"buffer_size": 2220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								933,
-								933
+								813,
+								813
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 221.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1461,8 +1462,8 @@
 						"selection":
 						[
 							[
-								2248,
-								2248
+								2214,
+								2200
 							]
 						],
 						"settings":
@@ -1471,10 +1472,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1734.0,
+						"translation.y": 1836.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -2011,9 +2012,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ethi",
+		"last_filter": "eth",
 		"selected_items":
 		[
+			[
+				"eth",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\ethical-gallery.myshopify.com\\ethical.sublime-project"
+			],
 			[
 				"ethi",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\ethical-gallery.myshopify.com\\ethical.sublime-project"
@@ -2045,10 +2050,6 @@
 			[
 				"van",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\vanocuvermeals2go.myshopify.com\\vanocuver.sublime-project"
-			],
-			[
-				"eth",
-				"C:\\Users\\sarhov\\Dropbox\\Projects\\ethical-gallery.myshopify.com\\ethical.sublime-project"
 			],
 			[
 				"je",
