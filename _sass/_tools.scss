@@ -30,8 +30,6 @@
 	}
 }
 
-
-
 .tools-wrap{
 	color: #444;
 }
@@ -39,7 +37,11 @@
 .show-placeholder + div{
 	display: none !important;
 }
-
+.ql-editor{
+	min-height: 300px;
+	max-height: 400px;
+	overflow: auto;
+}
 .b-tabs-action{
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 20px;
@@ -47,6 +49,9 @@
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: stretch;
 	}
 	&__remove{
 		font-size: 8px;
@@ -126,4 +131,14 @@
 			}
 		}
 	}
+	&__item-text {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	}
+}
+
+.b-tabs-editor{
+	
 }

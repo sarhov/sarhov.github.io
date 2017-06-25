@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ch",
+				"checkLength"
+			],
+			[
+				"actio",
+				"actionTabItem"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -308,34 +316,7 @@
 	"buffers":
 	[
 		{
-			"file": "js/functions.js",
-			"settings":
-			{
-				"buffer_size": 259,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 3197,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "contact.html",
-			"settings":
-			{
-				"buffer_size": 155,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/28-10-2015-shopify-products-super-fast-preview.md",
+			"file": "tools/tabs-generator/tabs-generator.html",
 			"settings":
 			{
 				"buffer_size": 1904,
@@ -344,55 +325,19 @@
 			}
 		},
 		{
-			"file": "tools/tools.html",
-			"settings":
-			{
-				"buffer_size": 1347,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "---"
-			}
-		},
-		{
 			"file": "pages/start-working.html",
 			"settings":
 			{
 				"buffer_size": 2867,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/head.html",
-			"settings":
-			{
-				"buffer_size": 4016,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_sass/_base.scss",
+			"file": "tools/tool.html",
 			"settings":
 			{
-				"buffer_size": 2038,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.scss",
-			"settings":
-			{
-				"buffer_size": 115,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 186,
+				"buffer_size": 316,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -407,19 +352,45 @@
 			}
 		},
 		{
-			"file": "_sass/_editor.scss",
+			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 2117,
+				"buffer_size": 3576,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_sass/_syntax-highlighting.scss",
+			"file": "_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 3800,
+				"buffer_size": 4421,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_sass/_tools.scss",
+			"settings":
+			{
+				"buffer_size": 1915,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/tools.scss",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/tabs-generator/tabs_generator.js",
+			"settings":
+			{
+				"buffer_size": 838,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -432,10 +403,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 139.0,
-		"last_filter": "liq",
+		"height": 354.0,
+		"last_filter": "re",
 		"selected_items":
 		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lq",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
 			[
 				"liq",
 				"Set Syntax: HTML (Liquid)"
@@ -443,14 +430,6 @@
 			[
 				"je",
 				"Jekyll: New draft"
-			],
-			[
-				"re",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"html",
-				"HTML: Encode Special Characters"
 			],
 			[
 				"rere",
@@ -655,10 +634,6 @@
 			[
 				"branh",
 				"Git: Change Branch"
-			],
-			[
-				"js",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"php",
@@ -943,13 +918,9 @@
 			[
 				"upda",
 				"Gist: Update File"
-			],
-			[
-				"ermove",
-				"Package Control: Remove Package"
 			]
 		],
-		"width": 390.0
+		"width": 398.0
 	},
 	"console":
 	{
@@ -972,20 +943,34 @@
 	"expanded_folders":
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/.sass-cache",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/pages",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical"
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator"
 	],
 	"file_history":
 	[
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css/style.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_syntax-highlighting.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/head.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_editor.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_main.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_site/css/tools.css",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_site/css/style.css",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/tools.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tools.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_variables.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_base.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css/tools.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/contact.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/default.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js/functions.js",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/28-10-2015-shopify-products-super-fast-preview.md",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical/ethical.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/.sass-cache/87fed1f2c0b23efb52e2391b381b088d23bf800e/main.scssc",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/feelrich/index.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_editor.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/page.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/default.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/head.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_main.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/thelightingfactory/thelightingfactory.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/img/favicons/browserconfig.xml",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/demo_store/snippets/include_favorites.liquid",
@@ -1001,7 +986,6 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/28-10-2015-shopify-products-super-fast-preview.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/02-10-2015-What-shopify-developer-need-before-start-working-on-your-site.htm",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/07-06-2015-shopify-featured-image-for-blog-posts.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_base.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/CNAME",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/07-06-2015-shopify-subcollections-using-tags.html",
 		"/C/Users/sarhov/Desktop/MyNewApp/js/app.js",
@@ -1044,7 +1028,6 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/blog_items_index.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/footer.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/works.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/contact.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/blog-items-index.html",
 		"/C/Users/sarhov/AppData/Roaming/Sublime Text 3/Packages/Super Calculator/Super Calculator.sublime-settings",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_my_projects/the_project.html",
@@ -1063,7 +1046,6 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/sass/_layout.scss",
 		"/C/Users/sarhov/Dropbox/Projects/wagner-ftp/templates/wagner/css/filters.css",
 		"/C/Users/sarhov/AppData/Roaming/Sublime Text 3/Packages/fireplay/fireplay.sublime-settings",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js/functions.js",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/feed.xml",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/.sass-cache/5a6ff6e5ac9f4ee3be5b97bcd2c1470276a601aa/_units.scssc",
 		"/C/Users/sarhov/AppData/Roaming/Sublime Text 3/Packages/fireplay/Default (Windows).sublime-keymap",
@@ -1095,17 +1077,7 @@
 		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/product_add.liquid",
 		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/templates/product.liquid",
 		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/README.md",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/.sass-cache/1b101d4e2722a6df0041c8489407cf8ca7d1007f/_opacity.scssc",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/mosbizmeb.sublime-project",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/templates/collection.serial.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/product_main-block.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/product_side-block.liquid",
-		"/C/Users/sarhov/AppData/Roaming/Sublime Text 3/Packages/User/google_search.sublime-settings",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/common-colors.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/filter.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/tovars.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/vkladki.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/snippets/cm-colors-script.liquid"
+		"/C/Users/sarhov/Dropbox/Projects/mosbizmeb/.sass-cache/1b101d4e2722a6df0041c8489407cf8ca7d1007f/_opacity.scssc"
 	],
 	"find":
 	{
@@ -1281,93 +1253,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/functions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_layouts/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2610,
-								2610
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 748.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_posts/28-10-2015-shopify-products-super-fast-preview.md",
+					"file": "tools/tabs-generator/tabs-generator.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1378,56 +1264,25 @@
 						"selection":
 						[
 							[
-								132,
-								132
+								929,
+								929
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "tools/tools.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								920,
-								920
-							]
-						],
-						"settings":
-						{
-							"auto_name": "---",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 1,
 					"file": "pages/start-working.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2867,
@@ -1437,8 +1292,8 @@
 						"selection":
 						[
 							[
-								102,
-								55
+								12,
+								53
 							]
 						],
 						"settings":
@@ -1450,133 +1305,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_includes/head.html",
+					"buffer": 2,
+					"file": "tools/tool.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4016,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								774,
-								698
+								263,
+								263
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "_sass/_base.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2038,
-								2038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1192.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_sass/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 10,
+					"buffer": 3,
 					"file": "_sass/_main.scss",
 					"semi_transient": false,
 					"settings":
@@ -1588,42 +1350,13 @@
 						"selection":
 						[
 							[
-								3150,
-								3150
+								375,
+								375
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "_sass/_editor.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1632,24 +1365,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_includes/head.html",
+					"buffer": 4,
+					"file": "_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4016,
+						"buffer_size": 3576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3384,
+								3384
 							]
 						],
 						"settings":
@@ -1662,46 +1395,81 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "_sass/_syntax-highlighting.scss",
+					"buffer": 5,
+					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3800,
+						"buffer_size": 4421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								1023,
+								1023
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 8,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 8,
-					"file": "css/style.scss",
+					"buffer": 6,
+					"file": "_sass/_tools.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 115,
+						"buffer_size": 1915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/tools.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 26,
 						"regions":
 						{
 						},
@@ -1720,9 +1488,48 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 7,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "tools/tabs-generator/tabs_generator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1749,17 +1556,30 @@
 				0,
 				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.800128534704,
+			0.473007712082,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.667647058824,
 			1.0
 		]
 	},
@@ -1798,6 +1618,18 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"_sass\\_main.scss"
+			],
+			[
+				"he",
+				"_includes\\head.html"
+			],
+			[
+				"defu",
+				"_layouts\\default.html"
+			],
+			[
 				"sty",
 				"css\\style.scss"
 			],
@@ -1812,14 +1644,6 @@
 			[
 				"edi",
 				"_sass\\_editor.scss"
-			],
-			[
-				"he",
-				"_includes\\head.html"
-			],
-			[
-				"main",
-				".sass-cache\\87fed1f2c0b23efb52e2391b381b088d23bf800e\\main.scssc"
 			],
 			[
 				"base",
@@ -2195,9 +2019,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ro",
+		"last_filter": "who",
 		"selected_items":
 		[
+			[
+				"who",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\wholesaledistributor.myshopify.com\\wholesaledistributor.sublime-project"
+			],
 			[
 				"ro",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\rozey.myshopify.com\\rozy.sublime-project"
@@ -2426,7 +2254,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
