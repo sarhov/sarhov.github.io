@@ -37,8 +37,9 @@ function addEditor(index){
   	+'</div>'
   	console.log(template);
   	$('.jsEditorItem[data-index="'+oldIndex+'"]').after(template);
-  	var newEditor = 'quill_' + index;
-  	newEditor = new Quill('#editor_'+ index +'', {
+  	// var newEditor = 'quill_' + index;
+  	// console.log(newEditor)
+  	var newEditor = new Quill('#editor_'+ index +'', {
   	  theme: 'snow'
   	});
 }
