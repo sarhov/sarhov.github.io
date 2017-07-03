@@ -5,7 +5,11 @@
 		[
 			[
 				"new",
-				"newEditor"
+				"newPosition"
+			],
+			[
+				"next",
+				"nextAll\t.nextAll()"
 			],
 			[
 				"clon",
@@ -331,7 +335,16 @@
 			"file": "tools/tabs-generator/tabs_generator.js",
 			"settings":
 			{
-				"buffer_size": 2654,
+				"buffer_size": 3502,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 3581,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -340,7 +353,7 @@
 			"file": "tools/tabs-generator/tabs-generator.html",
 			"settings":
 			{
-				"buffer_size": 2220,
+				"buffer_size": 2175,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -385,16 +398,7 @@
 			"file": "_sass/_tools.scss",
 			"settings":
 			{
-				"buffer_size": 2257,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 3576,
+				"buffer_size": 2637,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1260,7 +1264,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1269,15 +1273,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2654,
+						"buffer_size": 3502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								726,
-								726
+								2486,
+								2486
 							]
 						],
 						"settings":
@@ -1286,33 +1290,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "tools/tabs-generator/tabs-generator.html",
+					"file": "_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2220,
+						"buffer_size": 3581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								813,
-								813
+								127,
+								127
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1325,6 +1328,37 @@
 				},
 				{
 					"buffer": 2,
+					"file": "tools/tabs-generator/tabs-generator.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1841,
+								1841
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "pages/start-working.html",
 					"semi_transient": false,
 					"settings":
@@ -1349,11 +1383,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "tools/tool.html",
 					"semi_transient": false,
 					"settings":
@@ -1378,11 +1412,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "_sass/_main.scss",
 					"semi_transient": false,
 					"settings":
@@ -1409,11 +1443,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
@@ -1425,8 +1459,8 @@
 						"selection":
 						[
 							[
-								1023,
-								1023
+								829,
+								698
 							]
 						],
 						"settings":
@@ -1440,7 +1474,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1450,20 +1484,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "_sass/_tools.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2257,
+						"buffer_size": 2637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2214,
-								2200
+								2327,
+								2327
 							]
 						],
 						"settings":
@@ -1472,27 +1506,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1836.0,
+						"translation.y": 1957.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 1,
 					"file": "_layouts/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3576,
+						"buffer_size": 3581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1014,
-								1014
+								1019,
+								1019
 							]
 						],
 						"settings":
@@ -1505,7 +1539,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1533,7 +1567,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1611,6 +1645,14 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"_includes\\head.html"
+			],
+			[
+				"def",
+				"_layouts\\default.html"
+			],
+			[
 				"main",
 				"_sass\\_main.scss"
 			],
@@ -1629,10 +1671,6 @@
 			[
 				"high",
 				"_sass\\_syntax-highlighting.scss"
-			],
-			[
-				"hea",
-				"_includes\\head.html"
 			],
 			[
 				"edi",
@@ -1681,10 +1719,6 @@
 			[
 				"ide",
 				"website\\index.html"
-			],
-			[
-				"def",
-				"website\\_layouts\\default.html"
 			],
 			[
 				"goog",
@@ -2012,9 +2046,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "eth",
+		"last_filter": "miq",
 		"selected_items":
 		[
+			[
+				"miq",
+				"C:\\Users\\sarhov\\Dropbox\\My_projects\\itsjekyll-miqo\\itsjekyll-miqo.sublime-project"
+			],
 			[
 				"eth",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\ethical-gallery.myshopify.com\\ethical.sublime-project"
@@ -2030,10 +2068,6 @@
 			[
 				"ro",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\rozey.myshopify.com\\rozy.sublime-project"
-			],
-			[
-				"miq",
-				"C:\\Users\\sarhov\\Dropbox\\My_projects\\itsjekyll-miqo\\itsjekyll-miqo.sublime-project"
 			],
 			[
 				"miqo",
