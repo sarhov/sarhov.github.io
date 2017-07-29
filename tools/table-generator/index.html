@@ -16,36 +16,59 @@ template: tools-table
 		<div class="b-tools__generate">
 			<button class="b-tools__generate-button jsGenerate">Generate</button>
 		</div> 
-		<div class="custom-wrap jsBox">
-			<div class="custom-wrap__action custom-wrap__action_top">
-				<a href="#" class="jsAddColumn">Add column + </a>
-				<a href="#" class="jsRemoveColumn"> - Remove column</a>
+		<div class="b-tools__tables">
+			<div class="custom-wrap jsBox">
+				<div class="image__add jsImageSourceBox">
+					<p>Add Image</p>
+					<input type="text" class="image__add-input jsImageSource">
+					<button class="image__add-submit jsAddImage" value="Top" type="submit">Add</button>
+					<button class="image__remove-submit jsRemoveImage" type="button">Remove</button>
+				</div>
+				<div class="custom-wrap__action custom-wrap__action_top">
+					<a href="#" class="jsAddColumn">Add column + </a>
+					<a href="#" class="jsRemoveColumn"> - Remove column</a>
+				</div>
+				<!-- /.custom-wrap__action custom-wrap__action_top -->
+				<div class="custom">
+					<div class="custom__image is_empty">
+						<img style="display:none;" src="" alt="" class="custom__image-img jsTopImage">
+					</div>
+					<div class="custom__title"><span contenteditable>Specefication</span></div>
+					<table>
+						<tr>
+							<th></th> 
+							<th contenteditable>Heading</th>
+							<th contenteditable>head</th>
+							<th contenteditable>head</th>
+							<th contenteditable>head</th>
+						</tr>
+						<tr>
+							<th>VL</th>
+							<td contenteditable>Value</td>
+							<td contenteditable>Value</td>
+							<td contenteditable>Value</td>
+							<td contenteditable>Value</td>
+						</tr>
+					</table>
+					<div class="custom__image is_empty">
+						<img style="display:none;" src="" alt="" class="custom__image-img jsBottomImage">
+					</div>
+				</div>
+				<div class="custom-wrap__action custom-wrap__action_bottom">
+					<a href="#" class="jsAddRow">Add row + </a>
+					<a href="#" class="jsRemoveRow">- Remove row</a> 
+				</div>
+				<!-- /.custom-wrap__action custom-wrap__action_bottom -->
+				<div class="image__add jsImageSourceBox">
+					<p>Add Image</p>
+					<input type="text" class="image__add-input jsImageSource">
+					<button class="image__add-submit jsAddImage" value="Bottom" type="submit">Add</button>
+					<button class="image__remove-submit jsRemoveImage" type="button">Remove</button>
+				</div>
+				<div class="result">
+					<pre class="jsResult"></pre>
+				</div>
 			</div>
-			<!-- /.custom-wrap__action custom-wrap__action_top -->
-			<div class="custom">
-				<div class="custom__title"><span contenteditable>Specefication</span></div>
-				<table>
-					<tr>
-						<th></th> 
-						<th contenteditable>Heading</th>
-						<th contenteditable>head</th>
-						<th contenteditable>head</th>
-						<th contenteditable>head</th>
-					</tr>
-					<tr>
-						<th>VL</th>
-						<td contenteditable>Value</td>
-						<td contenteditable>Value</td>
-						<td contenteditable>Value</td>
-						<td contenteditable>Value</td>
-					</tr>
-				</table>
-			</div>
-			<div class="custom-wrap__action custom-wrap__action_bottom">
-				<a href="#" class="jsAddRow">Add row + </a>
-				<a href="#" class="jsRemoveRow">- Remove row</a> 
-			</div>
-			<!-- /.custom-wrap__action custom-wrap__action_bottom -->
 		</div>
 		<div class="add-new ">
 			<a href="#" class="add-new__action jsAddNewBox">Add new table + </a>

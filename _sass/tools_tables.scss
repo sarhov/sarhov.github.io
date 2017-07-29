@@ -23,12 +23,36 @@
   }
 }
 
+.custom{
+  td, th{
+    &:focus{
+      background: #ececec;
+    }
+  }
+}
+
 .custom-wrap{
   position: relative;
   padding-bottom: 20px;
   border-bottom: 1px solid #ececec;
   margin-bottom: 20px;
 } 
+
+.custom__add-image{
+  display: inline-block;
+  padding: 7px 10px;
+  background: #9c0;
+  color: #000;
+  font-size: 12px;
+}
+
+.custom__remove-image{
+  display: inline-block;
+  padding: 7px 10px;
+  background: #9c0;
+  color: #000;
+  font-size: 12px;
+}
 
 .custom-wrap__action_bottom {
   padding-top: 20px;
