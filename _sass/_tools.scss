@@ -24,9 +24,37 @@
 	@media screen and (max-width: 680px){
 		flex-direction: column;
 	}
+	&__intro{
+		margin-bottom: 15px;
+		max-width: 600px;
+		border-radius: 4px;
+		background: #ececec;
+		padding: 15px;
+		line-height: 1.5;
+	}
+	&__generate{
+		margin-bottom: 30px;
+	}
+	&__generate-button{
+		text-transform: uppercase; 
+		letter-spacing: 1.5px;
+		font-size: 16px;
+		padding: 10px 20px;
+		background: #9c0;
+		border-radius: 2px;
+		cursor: pointer;
+		border: none;
+		&:hover{ 
+			opacity: 0.8;
+		}
+	}
 	&__action{
 		padding-right: 30px; 
 		width: 50%;
+		&_table{
+			width: 100%;
+			max-width: 800px;
+		}
 	}
 	&__result{
 		width: 50%;

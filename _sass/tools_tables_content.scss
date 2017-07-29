@@ -1,0 +1,57 @@
+.custom{
+  overflow: hidden;
+  table{
+    max-width: 100%;
+    margin: 0;
+    background: none;
+    border: none;
+    margin-left: -10px;
+    font-size: 13px;
+  }
+  .custom__title{
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: bold;
+    span{
+      font-weight: 700;
+      padding-bottom: 7px;
+      color: #000;
+      cursor: default;
+      font-size: 13px;
+      opacity: 0.8;
+      position: relative;
+      display: inline-block;
+      letter-spacing: 2px;
+      &:after{
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 1px;
+        width: 100%;
+        content: "";
+        background: #0381a2;
+      }
+    }
+  }
+  th, .th{
+    text-align: left;
+    color: #0abacf;
+    font-weight: 700;
+    border: none;
+    background: none;
+    &:empty{
+      padding: 0;
+    }
+  }
+
+  td, th{
+    padding: 10px 10px;
+    background: none;
+    border: none;
+  }
+  td{
+    padding-right: 40px;
+  }
+}

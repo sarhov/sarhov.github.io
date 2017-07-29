@@ -10,10 +10,19 @@
   <meta name="description" content="{{ site.description }}">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}">
+
   {% if page.layout == 'tools' %}
     <link rel="stylesheet" href="{{ "css/tools.css" | prepend: site.baseurl }}">
     {% if page.template == 'tools-tabs' %}
       <link href="https://cdn.quilljs.com/1.2.6/quill.snow.css" rel="stylesheet">
+    {% endif %}
+  {% endif %}
+
+  {% if page.layout == 'tools' %}
+    <link rel="stylesheet" href="{{ "css/tools.css" | prepend: site.baseurl }}">
+    {% if page.template == 'tools-table' %}
+      <link rel="stylesheet" href="{{ "css/tools_tables.css" | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "css/tools_tables_content.css" | prepend: site.baseurl }}">
     {% endif %}
   {% endif %}
 
