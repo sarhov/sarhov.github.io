@@ -105,6 +105,10 @@
   <script src="{{'tools/tabs-generator/tabs_generator.js' | prepend: site.baseurl}}"></script>
 {% endif %}
 
+{% if page.template == 'tools-table' %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.6.14/beautify-html.min.js"></script>
+  <script src="{{'tools/table-generator/table.js' | prepend: site.baseurl}}"></script>
+{% endif %}
 </body>
 
 </html>
