@@ -16,9 +16,12 @@ template: tools-table
 		<div class="b-tools__generate">
 			<button class="b-tools__generate-button jsGenerate">Generate</button>
 		</div> 
-		<div class="custom-wrap">
-			<a href="" class="addColumns">Add Column</a>
-			<a href="" class="addColumns">Remove Column</a>
+		<div class="custom-wrap jsBox">
+			<div class="custom-wrap__action custom-wrap__action_top">
+				<a href="#" class="jsAddColumn">Add column + </a>
+				<a href="#" class="jsRemoveColumn"> - Remove column</a>
+			</div>
+			<!-- /.custom-wrap__action custom-wrap__action_top -->
 			<div class="custom">
 				<div class="custom__title"><span contenteditable>Specefication</span></div>
 				<table>
@@ -38,7 +41,14 @@ template: tools-table
 					</tr>
 				</table>
 			</div>
-			<a href="" class="">Remove row</a> <a href="">Add row</a>
+			<div class="custom-wrap__action custom-wrap__action_bottom">
+				<a href="#" class="jsAddRow">Add row + </a>
+				<a href="#" class="jsRemoveRow">- Remove row</a> 
+			</div>
+			<!-- /.custom-wrap__action custom-wrap__action_bottom -->
+		</div>
+		<div class="add-new ">
+			<a href="#" class="add-new__action jsAddNewBox">Add new table + </a>
 		</div>
 	</div>
 </div>
