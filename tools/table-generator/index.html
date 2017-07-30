@@ -41,14 +41,14 @@ template: tools-table
 					<div class="custom__title"><span contenteditable>Specefication</span></div>
 					<table>
 						<tr>
-							<th></th> 
+							<th contenteditable></th> 
 							<th contenteditable>Heading</th>
 							<th contenteditable>head</th>
 							<th contenteditable>head</th>
 							<th contenteditable>head</th>
 						</tr>
 						<tr>
-							<th>VL</th>
+							<th contenteditable>VL</th>
 							<td contenteditable>Value</td>
 							<td contenteditable>Value</td>
 							<td contenteditable>Value</td>
@@ -73,7 +73,7 @@ template: tools-table
 			</div> 
 
 			<div class="result">
-					<pre class="jsResult"></pre>
+					<pre class="jsResult" id="select" onclick="selectText('select')"></pre>
 				</div>
 		</div>
 		<!-- <div class="add-new ">
@@ -81,3 +81,18 @@ template: tools-table
 		</div> -->
 	</div>
 </div>
+
+<script type="text/javascript">
+    function selectText(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+        }
+    }
+</script>
