@@ -13,22 +13,27 @@ template: tools-table
 		<p class="b-tools__intro">
 			Edit the table, add new rows, add image and click <strong>Generage to get the code and past it in you code editor (html mode)</strong>
 		</p>
-		<div class="b-tools__generate">
-			<button class="b-tools__generate-button jsGenerate">Generate</button>
-		</div> 
+
 		<div class="b-tools__tables">
 			<div class="custom-wrap jsBox">
+				
 				<div class="image__add jsImageSourceBox">
-					<p>Add Image</p>
-					<input type="text" class="image__add-input jsImageSource">
-					<button class="image__add-submit jsAddImage" value="Top" type="submit">Add</button>
-					<button class="image__remove-submit jsRemoveImage" type="button">Remove</button>
+					<input placeholder="Past image url" type="text" class="image__add-input jsImageSource">
+					<button class="image__add-submit jsAddImage" value="Top" type="submit">OK</button>
+					<button class="image__remove-submit jsRemoveImage" type="button">&times;</button>
 				</div>
-				<div class="custom-wrap__action custom-wrap__action_top">
-					<a href="#" class="jsAddColumn">Add column + </a>
-					<a href="#" class="jsRemoveColumn"> - Remove column</a>
+				<div class="custom-wrap__actions">
+					<div class="custom-wrap__action custom-wrap__action_top">
+						<a href="#" class="jsAddColumn">Col + </a>
+						<a href="#" class="jsRemoveColumn"> &times;</a>
+					</div>
+					<div class="custom-wrap__action custom-wrap__action_bottom">
+						<a href="#" class="jsAddRow">Row + </a>
+						<a href="#" class="jsRemoveRow">&times;</a> 
+					</div>
 				</div>
-				<!-- /.custom-wrap__action custom-wrap__action_top -->
+		
+				
 				<div class="custom">
 					<div class="custom__image is_empty">
 						<img style="display:none;" src="" alt="" class="custom__image-img jsTopImage">
@@ -54,24 +59,25 @@ template: tools-table
 						<img style="display:none;" src="" alt="" class="custom__image-img jsBottomImage">
 					</div>
 				</div>
-				<div class="custom-wrap__action custom-wrap__action_bottom">
-					<a href="#" class="jsAddRow">Add row + </a>
-					<a href="#" class="jsRemoveRow">- Remove row</a> 
-				</div>
-				<!-- /.custom-wrap__action custom-wrap__action_bottom -->
+				
 				<div class="image__add jsImageSourceBox">
-					<p>Add Image</p>
-					<input type="text" class="image__add-input jsImageSource">
-					<button class="image__add-submit jsAddImage" value="Bottom" type="submit">Add</button>
-					<button class="image__remove-submit jsRemoveImage" type="button">Remove</button>
+					<input placeholder="Past image url" type="text" class="image__add-input jsImageSource">
+					<button class="image__add-submit jsAddImage" value="Bottom" type="submit">Ok</button>
+					<button class="image__remove-submit jsRemoveImage" type="button">&times;</button>
 				</div>
-				<div class="result">
+
+			</div>				
+			
+			<div class="b-tools__generate">
+				<button class="b-tools__generate-button jsGenerate">Generate</button>
+			</div> 
+
+			<div class="result">
 					<pre class="jsResult"></pre>
 				</div>
-			</div>
 		</div>
-		<div class="add-new ">
+		<!-- <div class="add-new ">
 			<a href="#" class="add-new__action jsAddNewBox">Add new table + </a>
-		</div>
+		</div> -->
 	</div>
 </div>
