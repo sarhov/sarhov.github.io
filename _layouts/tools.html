@@ -5,10 +5,13 @@ layout: default
 
 <div id="page" class="single-page">
 	<div class="b-post-info clearfix">
+			{% unless page.hide_nav %}
 		<div class="b-post-info__actions">
+			
 			<a href="{{site.baseurl}}shopify-tools"> Return To All Tools </a>
 		</div>
 		<!-- /.b-post-info__action -->
+			{% endunless %}
 		<div class="b-post-info__info">
 			{{ page.date | date: "%-d %B %Y" }}
 		</div>
