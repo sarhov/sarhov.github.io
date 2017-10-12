@@ -332,6 +332,24 @@
 	"buffers":
 	[
 		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 3403,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/tools_footer.html",
+			"settings":
+			{
+				"buffer_size": 663,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "tools/tabs-generator/tabs_generator.js",
 			"settings":
 			{
@@ -345,6 +363,33 @@
 			"settings":
 			{
 				"buffer_size": 2175,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/html-editor/html-editor.html",
+			"settings":
+			{
+				"buffer_size": 1938,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/tools.html",
+			"settings":
+			{
+				"buffer_size": 621,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/html-editor/html_editor.js",
+			"settings":
+			{
+				"buffer_size": 364,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -380,17 +425,19 @@
 			"file": "_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 4811,
+				"buffer_size": 4953,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tools/table-generator/table.ts",
+			"contents": "Searching 270 files for \"tabs_generator.js\"\n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_layouts\\default.html:\n  103  {% if page.template == 'tools-tabs' %}\n  104    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  105:   <script src=\"{{'tools/tabs-generator/tabs_generator.js' | prepend: site.baseurl}}\"></script>\n  106  {% endif %}\n  107  \n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_site\\html-editor.html:\n  230  \n  231    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  232:   <script src=\"/tools/tabs-generator/tabs_generator.js\"></script>\n  233  \n  234  \n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_site\\shopify-tools-tab-generators.html:\n  230  \n  231    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  232:   <script src=\"/tools/tabs-generator/tabs_generator.js\"></script>\n  233  \n  234  \n\n3 matches across 3 files\n",
 			"settings":
 			{
-				"buffer_size": 5725,
-				"line_ending": "Unix"
+				"buffer_size": 911,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
@@ -415,17 +462,16 @@
 			"file": "_sass/_tools.scss",
 			"settings":
 			{
-				"buffer_size": 3141,
+				"buffer_size": 3195,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_layouts/default.html",
+			"file": "_layouts/post.html",
 			"settings":
 			{
-				"buffer_size": 3825,
-				"encoding": "UTF-8",
+				"buffer_size": 439,
 				"line_ending": "Windows"
 			}
 		},
@@ -997,12 +1043,10 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_data",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/table-generator",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/html-editor",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator"
 	],
 	"file_history":
@@ -1155,6 +1199,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"=\"\">",
+			"tabs_generator.js",
 			"&",
 			"el",
 			"sdb07",
@@ -1280,9 +1326,7 @@
 			"slide_1",
 			"максимальная ширина 750px",
 			"Максимальная высота 1300px",
-			"700px",
-			"div",
-			"#registered_client"
+			"700px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1305,11 +1349,70 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2960,
+								2960
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/tools_footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "tools/tabs-generator/tabs_generator.js",
 					"semi_transient": false,
 					"settings":
@@ -1331,14 +1434,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1022.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "tools/tabs-generator/tabs-generator.html",
 					"semi_transient": false,
 					"settings":
@@ -1350,8 +1453,8 @@
 						"selection":
 						[
 							[
-								2173,
-								604
+								1777,
+								1794
 							]
 						],
 						"settings":
@@ -1365,11 +1468,99 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "tools/html-editor/html-editor.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_layouts/tools.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tools/html-editor/html_editor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "pages/start-working.html",
 					"semi_transient": false,
 					"settings":
@@ -1394,11 +1585,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 8,
 					"file": "tools/tool.html",
 					"semi_transient": false,
 					"settings":
@@ -1423,11 +1614,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 9,
 					"file": "_sass/_main.scss",
 					"semi_transient": false,
 					"settings":
@@ -1454,24 +1645,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 10,
 					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4811,
+						"buffer_size": 4953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1176,
-								1176
+								1216,
+								1216
 							]
 						],
 						"settings":
@@ -1482,44 +1673,68 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "tools/table-generator/table.ts",
-					"semi_transient": true,
+					"buffer": 11,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5725,
+						"buffer_size": 911,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										287,
+										304
+									],
+									[
+										574,
+										591
+									],
+									[
+										840,
+										857
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								301,
+								301
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 12,
 					"file": "share/ethical/ethical.html",
 					"semi_transient": false,
 					"settings":
@@ -1544,11 +1759,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 13,
 					"file": "tools/table-generator/index.html",
 					"semi_transient": false,
 					"settings":
@@ -1574,33 +1789,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 291.0,
+						"translation.y": 903.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 14,
 					"file": "_sass/_tools.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3141,
+						"buffer_size": 3195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								481,
-								481
+								1013,
+								1013
 							]
 						],
 						"settings":
@@ -1609,44 +1824,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "_layouts/default.html",
-					"semi_transient": false,
+					"buffer": 15,
+					"file": "_layouts/post.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3825,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3562,
-								3562
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1887.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 16,
 					"file": "_sass/tools_tables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1672,11 +1885,11 @@
 						"translation.y": 1989.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 17,
 					"file": "_sass/tools_tables_content.scss",
 					"semi_transient": false,
 					"settings":
@@ -1702,7 +1915,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1780,16 +1993,16 @@
 		"selected_items":
 		[
 			[
-				"them",
-				"share\\feelrich\\theme.liquid"
+				"hea",
+				"_includes\\head.html"
 			],
 			[
 				"he",
 				"_includes\\head.html"
 			],
 			[
-				"hea",
-				"_includes\\head.html"
+				"them",
+				"share\\feelrich\\theme.liquid"
 			],
 			[
 				"def",
@@ -2181,9 +2394,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "be",
+		"last_filter": "thebes",
 		"selected_items":
 		[
+			[
+				"thebes",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\thebestme.myshopify.com\\thebestme.sublime-project"
+			],
 			[
 				"be",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\beproudshop.myshopify.com\\beproud.sublime-project"
@@ -2428,7 +2645,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
