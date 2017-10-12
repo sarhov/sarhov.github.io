@@ -201,7 +201,7 @@ body {
     // padding-bottom: 175px;
     overflow: auto;
     min-height: 442px;
-    z-index: 2;
+    z-index: 99999;
     @media screen and (max-height: 442px){
       min-height: 0;
     }
