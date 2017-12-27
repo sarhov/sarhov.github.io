@@ -226,8 +226,8 @@ body {
   margin: auto;
   text-align: center;
   &__link{
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     overflow: hidden;
     border-radius: 50%;
     margin: auto;
@@ -242,12 +242,11 @@ body {
       margin-bottom: 7px;
     }
     img {
-      filter: contrast(1.2);
-      height: auto;
-      max-height: 100%;
-      max-width: 100%;
-      transform: rotate(4deg) translate(-2px, -5px);
+      transform: rotate(-4deg) translate(2px, 0px) scale(1.11);
       transition: all 0.3s ease 0s;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
     }
     // &:hover{
     //   img{
@@ -337,7 +336,7 @@ body {
 /* b-contact */
 .b-contact{
   text-align: left;
-  height: 70px;
+  height: 88px;
   position: absolute;
   bottom: 105px;
   left:0;
@@ -352,8 +351,9 @@ body {
   &__line{
     margin-bottom: 3px;
     padding: 2px;
+    padding-left: 15px;
   }
-  &__link{
+  &__link-text{
     font-weight: 300;
     color: #F3FFD9;
     border-bottom: 1px dotted #ddd;
@@ -363,25 +363,37 @@ body {
       color: #ddd;
     }
   }
-  &__text{
+  &__title{
+    background: #d8ad5b none repeat scroll 0 0;
+    color: #fff;
+    display: block;
     font-size: 12px;
-    font-style: italic;
-    margin: 0 5px;
-    width: 100px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    padding: 6px 4px 8px;
+    text-align: center;
+    width: 100%;
+  }
+  &__icon {
     display: inline-block;
-    width: 40px;
-    font-size: 11px;
-    &_title{
-      background: #d8ad5b none repeat scroll 0 0;
-      color: #fff;
-      display: block;
-      font-size: 12px;
-      font-style: normal;
-      letter-spacing: 1px;
-      margin: 0 0 5px;
-      padding: 6px 4px 8px;
-      text-align: center;
-      width: 100%;
+    vertical-align: middle;
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: #9c0;
+    text-overflow: hidden;
+    overflow: hidden;
+    text-indent: -9999px;
+    &_telegram{
+      background: transparent url('/img/telegram.svg') center/contain no-repeat;
+    }
+    &_email{
+      background: transparent url('/img/email.svg') center/contain no-repeat;
+    }
+    &_skype{
+      background: transparent url('/img/skype.svg') center/contain no-repeat;
     }
   }
 }
@@ -396,6 +408,7 @@ body {
   left:0;
   width: 100%;
   height: 80px;
+  background: #3e3e3e;
   @media screen and (max-height: 442px){
     position: static;
   }
