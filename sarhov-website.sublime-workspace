@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"hi",
+				"hidden"
+			],
+			[
 				"new",
 				"newPosition"
 			],
@@ -335,89 +339,24 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 3403,
+				"buffer_size": 4137,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/tools_footer.html",
+			"file": "_site/share02thelightingfactory.html",
 			"settings":
 			{
-				"buffer_size": 663,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 10438,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tools/tabs-generator/tabs_generator.js",
+			"file": "share/ethical/ethical.html",
 			"settings":
 			{
-				"buffer_size": 3502,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/tabs-generator/tabs-generator.html",
-			"settings":
-			{
-				"buffer_size": 2175,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/html-editor/html-editor.html",
-			"settings":
-			{
-				"buffer_size": 1938,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/tools.html",
-			"settings":
-			{
-				"buffer_size": 621,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/html-editor/html_editor.js",
-			"settings":
-			{
-				"buffer_size": 364,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/start-working.html",
-			"settings":
-			{
-				"buffer_size": 2867,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/tool.html",
-			"settings":
-			{
-				"buffer_size": 316,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_sass/_main.scss",
-			"settings":
-			{
-				"buffer_size": 18790,
-				"encoding": "UTF-8",
+				"buffer_size": 5114,
 				"line_ending": "Windows"
 			}
 		},
@@ -426,71 +365,33 @@
 			"settings":
 			{
 				"buffer_size": 4953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_main.scss",
+			"settings":
+			{
+				"buffer_size": 15103,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 270 files for \"tabs_generator.js\"\n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_layouts\\default.html:\n  103  {% if page.template == 'tools-tabs' %}\n  104    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  105:   <script src=\"{{'tools/tabs-generator/tabs_generator.js' | prepend: site.baseurl}}\"></script>\n  106  {% endif %}\n  107  \n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_site\\html-editor.html:\n  230  \n  231    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  232:   <script src=\"/tools/tabs-generator/tabs_generator.js\"></script>\n  233  \n  234  \n\nC:\\Users\\sarhov\\Dropbox\\My_projects\\sarhov.com\\website\\_site\\shopify-tools-tab-generators.html:\n  230  \n  231    <script src=\"https://cdn.quilljs.com/1.2.6/quill.js\"></script>\n  232:   <script src=\"/tools/tabs-generator/tabs_generator.js\"></script>\n  233  \n  234  \n\n3 matches across 3 files\n",
+			"file": "img/email.svg",
 			"settings":
 			{
-				"buffer_size": 911,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "share/ethical/ethical.html",
-			"settings":
-			{
-				"buffer_size": 5114,
+				"buffer_size": 635,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/table-generator/index.html",
-			"settings":
-			{
-				"buffer_size": 3308,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_sass/_tools.scss",
-			"settings":
-			{
-				"buffer_size": 3195,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/post.html",
-			"settings":
-			{
-				"buffer_size": 439,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_sass/tools_tables.scss",
-			"settings":
-			{
-				"buffer_size": 2959,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_sass/tools_tables_content.scss",
-			"settings":
-			{
-				"buffer_size": 1178,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -1041,32 +942,38 @@
 	"expanded_folders":
 	[
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_data",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/html-editor",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator"
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical"
 	],
 	"file_history":
 	[
+		"/C/Users/sarhov/Desktop/sarhov-upwork.svg",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/tools_tables_content.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/tools_tables.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_tools.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/table-generator/index.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical/ethical.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/head.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_main.scss",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tool.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/pages/start-working.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/html-editor/html_editor.js",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/tools.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/tools_footer.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator/tabs_generator.js",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator/tabs-generator.html",
+		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/html-editor/html-editor.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/feelrich/theme.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/default.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css/tools_tables_content.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css/tools_tables.scss",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/tools_tables.scss",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/tools_tables_content.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/table-generator/tables.scss.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/thelightingfactory/thelightingfactory.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/css/style.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_syntax-highlighting.scss",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_includes/head.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_editor.scss",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_main.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_site/css/tools.css",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_site/css/style.css",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/tools.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tools.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_variables.scss",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_sass/_base.scss",
@@ -1075,14 +982,12 @@
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/js/functions.js",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_posts/28-10-2015-shopify-products-super-fast-preview.md",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/tools/tabs-generator.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/ethical/ethical.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/.sass-cache/87fed1f2c0b23efb52e2391b381b088d23bf800e/main.scssc",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/share/feelrich/index.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_layouts/page.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/img/favicons/browserconfig.xml",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/demo_store/snippets/include_favorites.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_site/start.html",
-		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/pages/start-working.html",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/demo_store/layout/theme.liquid",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/_config.yml",
 		"/C/Users/sarhov/Dropbox/My_projects/sarhov.com/website/index.html",
@@ -1169,20 +1074,11 @@
 		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/.sass-cache/4e73e42b02a409f4f44bab9658307ae532319582/_force-wrap.scssc",
 		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/.sass-cache/1b101d4e2722a6df0041c8489407cf8ca7d1007f/_filter.scssc",
 		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/templates/article.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/snippets/breadcrumbs.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/templates/product.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/media/jquery.total-storage.min.js",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/.sass-cache/402aafc7d482078fea1fc1d93fa4c4b824b8cf62/_min.scssc",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/sass/_mixins.scss",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/media/common.js",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/templates/collection.liquid",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/sass/screen.scss",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/config/settings.html",
-		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/.sass-cache/7e111264a3d48a33328a525e1bbbad142b91ea3a/_support.scssc"
+		"/C/Users/sarhov/Dropbox/Projects/rbz_dev/shop/snippets/breadcrumbs.liquid"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -1199,6 +1095,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"png",
 			"=\"\">",
 			"tabs_generator.js",
 			"&",
@@ -1325,8 +1222,7 @@
 			"slide_2",
 			"slide_1",
 			"максимальная ширина 750px",
-			"Максимальная высота 1300px",
-			"700px"
+			"Максимальная высота 1300px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1349,7 +1245,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1358,15 +1254,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3403,
+						"buffer_size": 4137,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2960,
-								2960
+								1255,
+								1255
 							]
 						],
 						"settings":
@@ -1376,467 +1272,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_includes/tools_footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 663,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "tools/tabs-generator/tabs_generator.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3502,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1939,
-								1939
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tools/tabs-generator/tabs-generator.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1777,
-								1794
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "tools/html-editor/html-editor.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								649,
-								649
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_layouts/tools.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 621,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "tools/html-editor/html_editor.js",
+					"buffer": 1,
+					"file": "_site/share02thelightingfactory.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 364,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "pages/start-working.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2867,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "tools/tool.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_sass/_main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18790,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								375,
-								375
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "_includes/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1216,
-								1216
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 911,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										287,
-										304
-									],
-									[
-										574,
-										591
-									],
-									[
-										840,
-										857
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "share/ethical/ethical.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "tools/table-generator/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1483,
-								1483
-							],
-							[
-								1691,
-								1691
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 903.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 14,
-					"file": "_sass/_tools.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1013,
-								1013
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 459.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "_layouts/post.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 439,
+						"buffer_size": 10438,
 						"regions":
 						{
 						},
@@ -1849,52 +1297,83 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "_sass/tools_tables.scss",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "share/ethical/ethical.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2959,
+						"buffer_size": 5114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1876,
-								1876
+								159,
+								159
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4314,
+								4314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1989.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "_sass/tools_tables_content.scss",
+					"buffer": 4,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1178,
+						"buffer_size": 1274,
 						"regions":
 						{
 						},
@@ -1902,7 +1381,43 @@
 						[
 							[
 								0,
-								1178
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "_sass/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7990,
+								7990
 							]
 						],
 						"settings":
@@ -1912,10 +1427,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "img/email.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1949,7 +1492,7 @@
 		"cols":
 		[
 			0.0,
-			0.635705114547,
+			0.734178055847,
 			1.0
 		],
 		"rows":
@@ -1992,6 +1535,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"shar",
+				"_site\\share02thelightingfactory.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
 			[
 				"hea",
 				"_includes\\head.html"
@@ -2394,9 +1945,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "thebes",
+		"last_filter": "best",
 		"selected_items":
 		[
+			[
+				"best",
+				"C:\\Users\\sarhov\\Dropbox\\Projects\\thebestme.myshopify.com\\thebestme.sublime-project"
+			],
 			[
 				"thebes",
 				"C:\\Users\\sarhov\\Dropbox\\Projects\\thebestme.myshopify.com\\thebestme.sublime-project"
