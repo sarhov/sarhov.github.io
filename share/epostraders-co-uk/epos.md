@@ -54,7 +54,7 @@ each word before underline is group name, so adding tags the way I have written 
 
 ![sidebar]()
 
-#### Products
+### Products
 
 I have imported some demo products to be able to work on some sections, will be great if we can insert real products, as after it some issues can appear and I can fix them.
 
