@@ -32,7 +32,7 @@ body {
       }
     }
   }
-  &__action{ 
+  &__action{
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -216,6 +216,11 @@ body {
     }
   }
 }
+.inner-page{
+  .b-wrap_header{
+    background: #353535;
+  }
+}
 /* END b-wrap */
 
 /* b-account */
@@ -286,12 +291,12 @@ body {
       content: '@';
     }
     @media screen and (max-width:   680px){
-      padding-bottom: 6px;  
+      padding-bottom: 6px;
     }
   }
 
   &__description{
-    font-size: 10px; 
+    font-size: 10px;
     margin: 0;
     font-weight: normal;
     @media screen and (max-width:   680px){
@@ -436,7 +441,7 @@ body {
   @media screen and (max-width: 440px){
     display: none;
   }
-} 
+}
 /* END b-hire */
 
 .b-content{
