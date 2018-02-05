@@ -401,6 +401,24 @@ body {
       background: transparent url('/img/skype.svg') center/contain no-repeat;
     }
   }
+
+  &_page{
+    position: static;
+    .b-contact__link-text{
+      color: #444;
+      font-size: 16px;
+      border-bottom-color: #444;
+      font-weight: 600;
+    }
+    .b-contact__line{
+      display: inline-block;
+      margin-left: 15px;
+      padding-left: 0;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
 }
 /* END b-contact */
 
