@@ -404,16 +404,25 @@ body {
 
   &_page{
     position: static;
+    display: block !important;
     .b-contact__link-text{
       color: #444;
       font-size: 16px;
       border-bottom-color: #444;
       font-weight: 600;
+      @media screen and (max-width: 560px){
+        font-size: 14px;
+      }
     }
     .b-contact__line{
       display: inline-block;
       margin-left: 15px;
       padding-left: 0;
+      @media screen and (max-width: 560px){
+        display: block;
+        margin-left: 0;
+        margin-bottom: 5px;
+      }
       &:first-child{
         margin-left: 0;
       }

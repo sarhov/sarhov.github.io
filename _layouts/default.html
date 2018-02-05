@@ -8,7 +8,7 @@
   <div class="b-wrap b-wrap_header">
     <div class="b-inner">
       <div class="b-account">
-        <a href="{{site.baseurl}}" class="b-account__link"> 
+        <a href="{% if page.template == 'index' %}/about/{% else %}{{site.baseurl}}{% endif %}" class="b-account__link"> 
           <img src="{{site.baseurl}}img/sarhov.jpg" srcset="{{site.baseurl}}img/sarhov.jpg 1x, {{site.baseurl}}img/sarhov-2x.jpg 2x" alt="sarhov | shopify expert, web developer" class="b-account__img">
         </a>
         <!-- b-account__link -->
@@ -28,7 +28,7 @@
       <!-- /.b-account__text -->
       <div class="b-contact">
         <h3 class="b-contact__title">Contact</h3>
-        <div class="b-contact__line"> 
+        <div class="b-contact__line">
           <a href="mailto:sarhov@sarhov.com?subject=Hello sarhov!" class="b-contact__link" title="Contact with sarhov via email">
             <span class="b-contact__icon b-contact__icon_email">Contact with sarhov via email</span>
             <span class="b-contact__link-text">sarhov@sarhov.com</span>
@@ -83,7 +83,7 @@
   </div>
 {% comment %}
   <div class="b-home__row b-home__row_second" id="section2">
-      
+
   </div>{% endcomment %}
 
 </div>
@@ -91,11 +91,11 @@
 <div class="b-content {{page.layout}}">
   <div class="b-content__inner clearfix">
     {% if page.layout == 'tools' %}
-     <div class="b-content__content b-content_tools"> 
+     <div class="b-content__content b-content_tools">
       {{content}}
-    </div> 
+    </div>
     {% else %}
-    <div class="b-content__left"> 
+    <div class="b-content__left">
       <div class="b-content__content">
         {{content}}
       </div>
@@ -110,7 +110,7 @@
 <!-- /.b-content -->
 {% endif %}
 
-<script src="{{'js/jquery.min.js' | prepend: site.baseurl }}"></script> 
+<script src="{{'js/jquery.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{'js/functions.js' | prepend: site.baseurl}}"></script>
 
 
@@ -118,4 +118,3 @@
 </body>
 
 </html>
-
