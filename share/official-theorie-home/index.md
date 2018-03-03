@@ -64,7 +64,11 @@ As the custom fields don't have visual editor, you can use the following tool fr
 
 And then follow this video where I am showing how to work with it.
 
-
+<p>
+  <div class="videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pCgruLhbHX8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</p>
 
 ## Collection page
 
