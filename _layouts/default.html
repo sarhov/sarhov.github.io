@@ -8,7 +8,7 @@
   <div class="b-wrap b-wrap_header">
     <div class="b-inner">
       <div class="b-account">
-        <a href="{% if page.template == 'index' %}/about/{% else %}{{site.baseurl}}{% endif %}" class="b-account__link"> 
+        <a href="{% if page.template == 'index' %}/about/{% else %}{{site.baseurl}}{% endif %}" class="b-account__link">
           <img src="{{site.baseurl}}img/sarhov.jpg" srcset="{{site.baseurl}}img/sarhov.jpg 1x, {{site.baseurl}}img/sarhov-2x.jpg 2x" alt="sarhov | shopify expert, web developer" class="b-account__img">
         </a>
         <!-- b-account__link -->
@@ -115,6 +115,7 @@
 
 
 {% include tools_footer.html %}
+{% include structured-data.liquid %}
 </body>
 
 </html>
