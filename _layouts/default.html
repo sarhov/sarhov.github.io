@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="{% if page.template != 'index' %} inner-page {{page.layout}}-page {% else %} index-page {% endif %}">
+<body class="template-{{page.template}} {% if page.template != 'index' %} inner-page {{page.layout}}-page {% else %} index-page {% endif %}">
 
   <div class="b-wrap b-wrap_header">
     <div class="b-inner">

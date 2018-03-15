@@ -2,15 +2,22 @@
  * Syntax highlighting styles
  */
  @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
+ pre.highlight{
+   padding: 0;
+   margin: 0;
+ }
  .highlight {
     position: relative;
     background: #1E1E1E none repeat scroll 0 0;
     // border-radius: 5px;
     margin: 10px 0;
-    padding: 10px; 
+    padding: 10px;
     color: #6FDA44;
     font-size: 12px;
     font-family: 'Source Code Pro' ;
+    code{
+      background: none !important;
+    }
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
@@ -38,7 +45,7 @@
     .kr    { font-weight: bold } // Keyword.Reserved
     .kt    { color: #458; font-weight: bold } // Keyword.Type
     .m     { color: #099 } // Literal.Number
-    .s     { color: #d14 } // Literal.String
+    .s     { color: #76d71c } // Literal.String
     .na    { color: #008080 } // Name.Attribute
     .nb    { color: #0086B3 } // Name.Builtin
     .nc    { color: #458; font-weight: bold } // Name.Class
@@ -47,7 +54,7 @@
     .ne    { color: #900; font-weight: bold } // Name.Exception
     .nf    { color: #900; font-weight: bold } // Name.Function
     .nn    { color: #555 } // Name.Namespace
-    .nt    { color: #8D8CF7 } // Name.Tag 
+    .nt    { color: #8D8CF7 } // Name.Tag
     .nv    { color: #008080 } // Name.Variable
     .ow    { font-weight: bold } // Operator.Word
     .w     { color: #bbb } // Text.Whitespace
