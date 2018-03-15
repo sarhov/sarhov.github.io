@@ -18,13 +18,21 @@ At first we need chrome add-on to make these fields visible in product dashboard
 
 Then going into product dashboard and clicking on custom fields icon we will load custom Metafields, there are 3 ones, if the field is not empty it will be shown and leave the field empty it will not be loaded in front end. Check the following videotutorial
 
-video_url
+<p>
+  <div class="videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TZWC6ICp-3s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</p>
 
 ### Tab Titles
 
 Tab title are being controlled from theme settings, going into theme settings we can see settings for product tabs, where we can define their titles, for tab 1, for tab 2, and for tab 3, check the following video tutorial.
 
-video_url
+<p>
+  <div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3YrHu1DB-lM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</p>
 
 ### Content and list skeleton
 
@@ -71,4 +79,8 @@ We just need to update content text and image url and then copy past it into fie
 
 Check the following video tutorial.
 
-video_url
+<p>
+  <div class="videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/51AqpzmlNfA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</p>
