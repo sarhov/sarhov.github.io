@@ -10,7 +10,7 @@ short_description: |
  </p>
 ---
 
-##  Who I am?
+##  Who am I?
 
 I am Hovhannes Sargsyan, I am 32, I am from Armenia. Professional web developer who loves the web.
 It is not just a work for me, but a lifestyle.
