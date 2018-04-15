@@ -21,14 +21,14 @@ Shopify is a fast growing e-commerce platform, which has a very flexible system,
 
 Let's go a bit back...
 
-As all web developers I have started as a web designer (html/css coder) and worked as a web designer for about 7-8 years, it helped me to learn perfectly html/css, saying  perfectly I mean **perfectly**. I proudly can say that I can convert any complex  design into fast working and clean Shopify projects. Please don't write me, if your project is not Shopify project, I have experience with almost all systems, I have developed themes for Wordpress, Joomla, Magento, Drupal...
+As all web developers I have started as a web designer (html/css coder) and worked as a web designer for about 7-8 years, it helped me to learn perfectly html/css, by saying  perfectly I mean **perfectly**. I proudly can say that I can convert any complex  design into fast working and clean Shopify projects. Please don't write me, if your project is not Shopify project, I have experience with almost all systems, I have developed themes for Wordpress, Joomla, Magento, Drupal...
 
 But now I am a Shopify man.
 
-I am single man developer, I am not trying to hide under company and so on, I am doing all stuff myself and do it much more faster and give higher quality than some companies as I don't take project and then give it to outsource, all the jobs are being done by  my hands. )))
-
-### Please don't hesitate contact with me using your preferred method.
+I am a "lonely wolf" developer, I am not trying to hide under company and so on, I am doing all stuff myself and do it much more faster and give higher quality than some companies as I don't take project and then give it to outsource, all the jobs are being done by  my hands. )))
 ---
+### Please don't hesitate to contact with me using your preferred method.
+
 <div class="b-contact b-contact_page">
   <!-- <h3 class="b-contact__title">Contact</h3> -->
   <div class="b-contact__line">
