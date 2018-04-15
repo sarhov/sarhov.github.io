@@ -26,8 +26,11 @@ As all web developers I have started as a web designer (html/css coder) and work
 But now I am a Shopify man.
 
 I am a "lonely wolf" developer, I am not trying to hide under company and so on, I am doing all stuff myself and do it much more faster and give higher quality than some companies as I don't take project and then give it to outsource, all the jobs are being done by  my hands. )))
+
 ---
+
 ### Please don't hesitate to contact with me using your preferred method.
+
 
 <div class="b-contact b-contact_page">
   <!-- <h3 class="b-contact__title">Contact</h3> -->
