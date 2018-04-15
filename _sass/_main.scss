@@ -252,6 +252,9 @@ body {
       object-fit: cover;
       height: 100%;
       width: 100%;
+      &.second_image{
+        display: none;
+      }
     }
     // &:hover{
     //   img{
@@ -259,6 +262,12 @@ body {
     //     -webkit-filter: contrast(4);
     //   }
     // }
+    &:hover img{
+      display: none;
+      &.second_image{
+        display: block;
+      }
+    }
   }
 
   &__text{
