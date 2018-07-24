@@ -16,7 +16,7 @@ https://official-theorie-home.myshopify.com/
 
 The shop now in development mode, and can be turned into paid plan and get real payments.
 
-## Homepage
+## Homepage             
 
 All content in homepage is easily controlled from shopify dashboard, each section can be drag and drag, change order, disable or enable.
 

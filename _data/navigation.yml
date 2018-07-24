@@ -1,12 +1,7 @@
+- title: home
+  description: homepage description
+  url: /
 - title: about
   description: All about me
-  url: /about-sarhov/
+  url: /about/
   icon: sarhov-about
-- title: work
-  description: The last works
-  url: /works-sarhov/
-  icon: sarhov-works
-- title: contact
-  description: Get in touch
-  url: /contact/
-  icon: sarhov-contact

@@ -1,13 +1,13 @@
 # Site settings
-avatar: http://sarhov.com/img/avatar.png
-baseurl: "http://sarhov.com/" # the subpath of your site, e.g. /blog/
-url: "http://sarhov.com" # the base hostname & protocol for your site
+avatar: https://sarhov.com/img/avatar.png
+baseurl: "https://sarhov.com/" # the subpath of your site, e.g. /blog/
+url: "https://sarhov.com" # the base hostname & protocol for your site
 socials:
 - title: facebook
-  url: http://fb.com/sarhov
+  url: https://fb.com/sarhov
   icon: sarhov-facebook
 - title: github
-  url: http://github.com/sarhov
+  url: https://github.com/sarhov
   icon: sarhov-github
 highlighter: rouge
 permalink: /:title/

@@ -349,6 +349,25 @@ body {
 
 /* END b-account */
 
+
+.b-menu{
+  &__opener{
+    display: none;
+  }
+  &__wrapper{
+    @media screen and (max-width: 440px){
+      display: none;
+    }
+  }
+
+  &__list{
+    list-style-type: none;
+  }
+  &__item{
+
+  }
+}
+
 /* b-contact */
 .b-contact{
   text-align: left;

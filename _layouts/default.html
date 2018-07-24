@@ -29,6 +29,24 @@
         </h3>
       </div>
       <!-- /.b-account__text -->
+
+      <div class="b-menu">
+        <a href="#" class="b-menu__opener">menu</a>
+        <div class="b-menu__wrapper jsMobileMenu">
+          <ul class="b-menu__list">
+            {% for link in site.data.navigation %}
+            <li class="b-menu__item">
+              <a href="{{link.url}}" class="b-menu__link  {% if link.url == page.permalink %} is_active {% endif %}">{{link.title}}</a>
+            </li>
+            <!-- /.b-menu__item -->
+            {% endfor %}
+          </ul>
+          <!-- /.b-menu__list -->
+        </div>
+
+      </div>
+      <!-- /.b-menu -->
+
       <div class="b-contact">
         <h3 class="b-contact__title">Contact</h3>
         <div class="b-contact__line">
