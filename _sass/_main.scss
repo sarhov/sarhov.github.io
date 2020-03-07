@@ -264,12 +264,6 @@ body {
     //     -webkit-filter: contrast(4);
     //   }
     // }
-    &:hover img{
-      display: none;
-      &.second_image{
-        display: block;
-      }
-    }
   }
 
   &__text{
